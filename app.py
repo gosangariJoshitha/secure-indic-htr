@@ -23,7 +23,9 @@ except ImportError:
 
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 os.environ["OMP_NUM_THREADS"] = "1"
-os.environ["TESSDATA_PREFIX"] = os.path.abspath(os.path.join(os.path.dirname(__file__), "tessdata"))
+_local_tessdata = os.path.abspath(os.path.join(os.path.dirname(__file__), "tessdata"))
+if os.path.exists(_local_tessdata):
+    os.environ["TESSDATA_PREFIX"] = _local_tessdata
 
 # Monkeypatch socket.getfqdn to handle None name on Windows
 import socket
@@ -500,35 +502,37 @@ def main():
         if ":" in state:
             target_page = state.split(":", 1)[0]
             
-        try:
-            from utils.security import exchange_google_code, save_persistent_drive_creds
-            user, creds = exchange_google_code(code)
-            
-            # Persist local user profile and credentials
-            st.session_state.user = user
-            st.session_state.drive_creds = creds
-            save_persistent_drive_creds(user.get("email"), creds)
-            
-            # Auto-create SecureDocAI app folders immediately
+        if st.session_state.get("last_oauth_code") != code:
+            st.session_state.last_oauth_code = code
             try:
-                from utils.helpers import ensure_folders
-                ensure_folders(creds)
-            except Exception as e:
-                logger.warning(f"Google Drive folder auto-creation failed: {e}")
+                from utils.security import exchange_google_code, save_persistent_drive_creds
+                user, creds = exchange_google_code(code)
                 
-            st.session_state.toast_queue.append(("Google Account linked successfully! ☁️", "success"))
-            st.session_state.auto_login_attempted = True
-            
-            # Restore active view/page routing state
-            if target_page in ["login", "signup", "landing", "auto_login"]:
-                st.session_state.auth_view = "landing"
-                st.session_state.active_page = "Home"
-            else:
-                st.session_state.active_page = target_page
-                st.session_state.auth_view = "landing"
-        except Exception as e:
-            st.session_state.toast_queue.append((f"Google Link failed: {e}", "error"))
-            
+                # Persist local user profile and credentials
+                st.session_state.user = user
+                st.session_state.drive_creds = creds
+                save_persistent_drive_creds(user.get("email"), creds)
+                
+                # Auto-create SecureDocAI app folders immediately
+                try:
+                    from utils.helpers import ensure_folders
+                    ensure_folders(creds)
+                except Exception as e:
+                    logger.warning(f"Google Drive folder auto-creation failed: {e}")
+                    
+                st.session_state.toast_queue.append(("Google Account linked successfully! ☁️", "success"))
+                st.session_state.auto_login_attempted = True
+                
+                # Restore active view/page routing state
+                if target_page in ["login", "signup", "landing", "auto_login"]:
+                    st.session_state.auth_view = "landing"
+                    st.session_state.active_page = "Home"
+                else:
+                    st.session_state.active_page = target_page
+                    st.session_state.auth_view = "landing"
+            except Exception as e:
+                st.session_state.toast_queue.append((f"Google Link failed: {e}", "error"))
+                
         st.query_params.clear()
         st.rerun()
     
