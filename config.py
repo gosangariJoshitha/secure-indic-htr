@@ -17,6 +17,18 @@ from dotenv import load_dotenv
 # below reads them. Safe to call even if .env doesn't exist yet.
 load_dotenv()
 
+# Helper function to get secrets from st.secrets (Streamlit Cloud) or os.environ
+def get_env_or_secret(key: str, default: str = "") -> str:
+    # First try Streamlit secrets
+    try:
+        import streamlit as st
+        if key in st.secrets:
+            return st.secrets[key]
+    except Exception:
+        pass
+    # Fallback to os.environ
+    return os.environ.get(key, default)
+
 # ------------------------------------------------------------------
 # App identity
 # ------------------------------------------------------------------
@@ -47,21 +59,21 @@ FORCE_CPU = os.environ.get("FORCE_CPU", "0") == "1"
 # Firebase (Auth) — values come from environment or st.secrets
 # ------------------------------------------------------------------
 FIREBASE_CONFIG = {
-    "apiKey": os.environ.get("FIREBASE_API_KEY", ""),
-    "authDomain": os.environ.get("FIREBASE_AUTH_DOMAIN", ""),
-    "projectId": os.environ.get("FIREBASE_PROJECT_ID", ""),
-    "storageBucket": os.environ.get("FIREBASE_STORAGE_BUCKET", ""),
-    "messagingSenderId": os.environ.get("FIREBASE_MSG_SENDER_ID", ""),
-    "appId": os.environ.get("FIREBASE_APP_ID", ""),
-    "databaseURL": os.environ.get("FIREBASE_DB_URL", ""),
+    "apiKey": get_env_or_secret("FIREBASE_API_KEY", ""),
+    "authDomain": get_env_or_secret("FIREBASE_AUTH_DOMAIN", ""),
+    "projectId": get_env_or_secret("FIREBASE_PROJECT_ID", ""),
+    "storageBucket": get_env_or_secret("FIREBASE_STORAGE_BUCKET", ""),
+    "messagingSenderId": get_env_or_secret("FIREBASE_MSG_SENDER_ID", ""),
+    "appId": get_env_or_secret("FIREBASE_APP_ID", ""),
+    "databaseURL": get_env_or_secret("FIREBASE_DB_URL", ""),
 }
-FIREBASE_ADMIN_CRED_PATH = os.environ.get("FIREBASE_ADMIN_CRED", "firebase_admin_key.json")
+FIREBASE_ADMIN_CRED_PATH = get_env_or_secret("FIREBASE_ADMIN_CRED", "firebase_admin_key.json")
 
 # ------------------------------------------------------------------
 # Google Drive (per-user storage) — OAuth client, NOT a service account.
 # Each user authorizes SecureDocAI to write to THEIR OWN Drive.
 # ------------------------------------------------------------------
-GOOGLE_OAUTH_CLIENT_SECRETS = os.environ.get("GOOGLE_OAUTH_CLIENT_SECRETS", "google_client_secret.json")
+GOOGLE_OAUTH_CLIENT_SECRETS = get_env_or_secret("GOOGLE_OAUTH_CLIENT_SECRETS", "google_client_secret.json")
 GOOGLE_DRIVE_SCOPES = ["https://www.googleapis.com/auth/drive.file"]
 GOOGLE_DRIVE_APP_FOLDER = "SecureDocAI"  # folder created inside the user's own Drive
 
