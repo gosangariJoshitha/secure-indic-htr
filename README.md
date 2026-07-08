@@ -167,17 +167,41 @@ SecureDocAI/
 
 # ⚙️ Installation
 
+For a comprehensive installation guide, please refer to the detailed [SETUP.md](SETUP.md) file.
+
+### Quick Setup
+
+**1. Clone the repository**
 ```bash
 git clone https://github.com/gosangariJoshitha/secure-indic-htr.git
 cd secure-indic-htr
+```
 
+**2. Create a clean virtual environment (Python 3.11)**
+```bash
 python -m venv .venv
+```
 
-# Windows
-.venv\Scripts\activate
+**3. Activate the environment**
+- **Windows**: `.venv\Scripts\activate`
+- **macOS/Linux**: `source .venv/bin/activate`
 
+**4. Install dependencies**
+```bash
+python -m pip install --upgrade pip
 pip install -r requirements.txt
+```
 
+**5. Download Language Packs**
+```bash
+python download_tessdata.py
+```
+
+**6. Setup Environment Variables**
+Create a `.env` file in the root directory for your Firebase keys (refer to `SETUP.md`).
+
+**7. Run the Application**
+```bash
 streamlit run app.py
 ```
 
