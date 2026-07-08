@@ -113,7 +113,7 @@ def _load_or_create_rsa_keypair():
     public_key = private_key.public_key()
     
     priv_bytes = private_key.private_bytes(Encoding.PEM, PrivateFormat.PKCS8, NoEncryption())
-    pub_bytes = public_key.bytes = public_key.public_bytes(
+    pub_bytes = public_key.public_bytes(
         Encoding.PEM, 
         PublicFormat.SubjectPublicKeyInfo,
         )
