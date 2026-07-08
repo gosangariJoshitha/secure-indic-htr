@@ -19,7 +19,7 @@
 
 # 🌐 Live Demo
 
-> Streamlit deployment link _(add after deployment)_
+> 🚀 **Live Demo available here:** [https://securedoc-ai.streamlit.app/](https://securedoc-ai.streamlit.app/)
 
 ---
 
