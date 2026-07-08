@@ -491,7 +491,6 @@ def main():
         # Silent auto-login failed (e.g. Guest mode or unauthenticated Google Account)
         st.session_state.auto_login_attempted = True
         st.query_params.clear()
-        st.rerun()
 
     if "code" in q_params and "state" in q_params:
         code = q_params["code"]
@@ -534,7 +533,6 @@ def main():
                 st.session_state.toast_queue.append((f"Google Link failed: {e}", "error"))
                 
         st.query_params.clear()
-        st.rerun()
     
     # Auto-login checking and redirection logic completely removed.
             
