@@ -53,15 +53,7 @@ def _attempt_login(email: str, password: str, remember: bool):
     st.rerun()
 
 def _attempt_google_login():
-    from utils.security import get_google_auth_url, AuthError
-    try:
-        auth_url, state = get_google_auth_url("login")
-        st.session_state.oauth_state = state
-        st.session_state.oauth_redirect_in_progress = True
-        st.markdown(f'<meta http-equiv="refresh" content="0; url={auth_url}">', unsafe_allow_html=True)
-        st.info("Redirecting to Google Sign-In...")
-    except AuthError as e:
-        st.error(e.message)
+    pass # Replaced by inline link_button in render()
     except Exception as e:
         st.error(f"Google Sign-In failed: {e}")
 
@@ -132,8 +124,19 @@ def render():
 
             html_block(f"<div style='text-align:center; color:{COLORS['text_secondary']}; font-size:0.75rem; margin:12px 0;'>— or —</div>")
 
-            if st.button("🔑 Continue with Google Account", use_container_width=True, key="login_google"):
-                _attempt_google_login()
+            try:
+                from utils.security import get_google_auth_url, AuthError
+                if "google_auth_url_login" not in st.session_state:
+                    auth_url, state = get_google_auth_url("login")
+                    st.session_state.google_auth_url_login = auth_url
+                    st.session_state.google_auth_state_login = state
+                    
+                st.session_state.oauth_state = st.session_state.google_auth_state_login
+                st.link_button("🔑 Continue with Google Account", st.session_state.google_auth_url_login, use_container_width=True)
+            except AuthError as e:
+                st.error(e.message)
+            except Exception as e:
+                st.error(f"Failed to setup Google Auth: {e}")
 
             html_block("<div class='sd-divider' style='margin: 16px 0;'></div>")
             

@@ -138,18 +138,19 @@ def render():
 
             html_block(f"<div style='text-align:center; color:{COLORS['text_secondary']}; font-size:0.75rem; margin:12px 0;'>— or —</div>")
 
-            if st.button("🔑 Continue with Google Account", use_container_width=True, key="su_google"):
+            try:
                 from utils.security import get_google_auth_url, AuthError
-                try:
+                if "google_auth_url_signup" not in st.session_state:
                     auth_url, state = get_google_auth_url("signup")
-                    st.session_state.oauth_state = state
-                    st.session_state.oauth_redirect_in_progress = True
-                    st.markdown(f'<meta http-equiv="refresh" content="0; url={auth_url}">', unsafe_allow_html=True)
-                    st.info("Redirecting to Google Sign-In...")
-                except AuthError as e:
-                    st.error(e.message)
-                except Exception as e:
-                    st.error(f"Google Sign-In failed: {e}")
+                    st.session_state.google_auth_url_signup = auth_url
+                    st.session_state.google_auth_state_signup = state
+                    
+                st.session_state.oauth_state = st.session_state.google_auth_state_signup
+                st.link_button("🔑 Continue with Google Account", st.session_state.google_auth_url_signup, use_container_width=True)
+            except AuthError as e:
+                st.error(e.message)
+            except Exception as e:
+                st.error(f"Google Sign-In failed: {e}")
 
             html_block(f"""
             <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-radius:8px; padding:12px; margin-top:16px; font-size:0.75rem; color:#64748B; text-align:center; line-height:1.4;">

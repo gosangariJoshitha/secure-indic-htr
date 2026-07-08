@@ -53,18 +53,19 @@ def _drive_connection_card():
             </div>
             <span class="sd-pill sd-pill-danger">✗ Disconnected</span>
         </div>""")
-        if st.button("🔌  Connect Google Drive", type="primary", key="settings_connect_drive", **full_width_kwargs(widget=st.button)):
+        try:
             from utils.security import get_google_auth_url, AuthError
-            try:
+            if "google_auth_url_profile" not in st.session_state:
                 auth_url, state = get_google_auth_url("Profile")
-                st.session_state.oauth_state = state
-                st.session_state.oauth_redirect_in_progress = True
-                st.markdown(f'<meta http-equiv="refresh" content="0; url={auth_url}">', unsafe_allow_html=True)
-                st.info("Redirecting to Google Sign-In...")
-            except AuthError as e:
-                st.error(e.message)
-            except Exception as e:
-                st.error(f"Failed to connect Drive: {e}")
+                st.session_state.google_auth_url_profile = auth_url
+                st.session_state.google_auth_state_profile = state
+                
+            st.session_state.oauth_state = st.session_state.google_auth_state_profile
+            st.link_button("🔌  Connect Google Drive", st.session_state.google_auth_url_profile, type="primary", use_container_width=True)
+        except AuthError as e:
+            st.error(e.message)
+        except Exception as e:
+            st.error(f"Failed to setup Drive: {e}")
 
 def render():
     html_block("""<div style="margin-bottom:18px;">
