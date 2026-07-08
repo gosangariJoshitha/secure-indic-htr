@@ -337,10 +337,10 @@ _GOOGLE_SCOPES = [
 ] + GOOGLE_DRIVE_SCOPES
 
 
-def build_google_auth_flow() -> InstalledAppFlow:
+def build_google_auth_flow():
     """Builds the OAuth consent flow. Raises AuthError if secrets config missing."""
     try:
-        from google_auth_oauthlib.flow import InstalledAppFlow
+        from google_auth_oauthlib.flow import Flow
     except ImportError:
         raise AuthError("google-auth-oauthlib isn't installed.")
 
@@ -351,7 +351,7 @@ def build_google_auth_flow() -> InstalledAppFlow:
     try:
         if "GOOGLE_OAUTH_CLIENT_SECRETS_JSON" in st.secrets:
             client_config = json.loads(st.secrets["GOOGLE_OAUTH_CLIENT_SECRETS_JSON"])
-            return InstalledAppFlow.from_client_config(
+            return Flow.from_client_config(
                 client_config,
                 scopes=_GOOGLE_SCOPES,
             )
@@ -362,7 +362,7 @@ def build_google_auth_flow() -> InstalledAppFlow:
     if not os.path.exists(GOOGLE_OAUTH_CLIENT_SECRETS):
         raise AuthError(f"OAuth client secret not found at '{GOOGLE_OAUTH_CLIENT_SECRETS}'.")
 
-    return InstalledAppFlow.from_client_secrets_file(
+    return Flow.from_client_secrets_file(
         GOOGLE_OAUTH_CLIENT_SECRETS,
         scopes=_GOOGLE_SCOPES,
     )
