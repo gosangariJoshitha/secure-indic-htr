@@ -72,7 +72,6 @@ def render():
     # Inject page CSS styles
     st.markdown(f"""
         <style>
-        /* Style only the nested container block that contains our navy-container-marker */
         div[data-testid="stVerticalBlock"] div[data-testid="stVerticalBlock"]:has(div.navy-container-marker) {{
             background-color: #0F172A !important;
             border-radius: 24px !important;
@@ -80,6 +79,7 @@ def render():
             margin-bottom: 24px !important;
             display: flex !important;
             flex-direction: column !important;
+            box-sizing: border-box !important;
         }}
         /* Align the columns inside the styled navy container */
         div[data-testid="stVerticalBlock"] div[data-testid="stVerticalBlock"]:has(div.navy-container-marker) div[data-testid="column"] {{
@@ -127,7 +127,13 @@ def render():
             flex-direction: column !important;
             height: 100% !important;
             box-sizing: border-box !important;
-            overflow: hidden !important;
+        }}
+        /* Force children to respect the padded boundary */
+        div[data-testid="stVerticalBlock"] div[data-testid="stVerticalBlock"]:has(div.white-container-marker) > * {{
+            max-width: 100% !important;
+        }}
+        div[data-testid="stVerticalBlock"] div[data-testid="stVerticalBlock"]:has(div.navy-container-marker) > * {{
+            max-width: 100% !important;
         }}
         /* Style the View library button inside the white card to look like a clean link */
         div[data-testid="stVerticalBlock"] div[data-testid="stVerticalBlock"]:has(div.white-container-marker) button {{
