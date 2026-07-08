@@ -54,8 +54,6 @@ def _attempt_login(email: str, password: str, remember: bool):
 
 def _attempt_google_login():
     pass # Replaced by inline link_button in render()
-    except Exception as e:
-        st.error(f"Google Sign-In failed: {e}")
 
 def render():
     if st.session_state.get("user"):
@@ -132,7 +130,13 @@ def render():
                     st.session_state.google_auth_state_login = state
                     
                 st.session_state.oauth_state = st.session_state.google_auth_state_login
-                st.link_button("🔑 Continue with Google Account", st.session_state.google_auth_url_login, use_container_width=True)
+                btn_html = f'''<a href="{st.session_state.google_auth_url_login}" target="_blank" 
+                               style="display:block; width:100%; padding:0.5rem; text-align:center; 
+                                      background-color:#0EA5E9; color:white; border-radius:0.5rem; 
+                                      text-decoration:none; font-family:sans-serif; font-weight:600;">
+                               🔑 Continue with Google Account
+                               </a>'''
+                st.markdown(btn_html, unsafe_allow_html=True)
             except AuthError as e:
                 st.error(e.message)
             except Exception as e:

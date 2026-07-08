@@ -61,7 +61,13 @@ def _drive_connection_card():
                 st.session_state.google_auth_state_profile = state
                 
             st.session_state.oauth_state = st.session_state.google_auth_state_profile
-            st.link_button("🔌  Connect Google Drive", st.session_state.google_auth_url_profile, type="primary", use_container_width=True)
+            btn_html = f'''<a href="{st.session_state.google_auth_url_profile}" target="_blank" 
+                           style="display:block; width:100%; padding:0.5rem; text-align:center; 
+                                  background-color:#0EA5E9; color:white; border-radius:0.5rem; 
+                                  text-decoration:none; font-family:sans-serif; font-weight:600;">
+                           🔌 Connect Google Drive
+                           </a>'''
+            st.markdown(btn_html, unsafe_allow_html=True)
         except AuthError as e:
             st.error(e.message)
         except Exception as e:
