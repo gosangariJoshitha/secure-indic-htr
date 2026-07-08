@@ -8,5 +8,6 @@ firebase-admin-key.json
 *.pem
 data/security/*.pem
 *.pth
+!models/fl_global_model_final.pth
 *.mp4
 google_client_secret.json
