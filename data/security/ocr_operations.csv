@@ -1,0 +1,253 @@
+Timestamp,Document Name,OCR Mode,Language,Engine Used,Fallback Used,Confidence,Processing Time (s)
+2026-07-07 08:10:31,unnamed_document,auto,Telugu,Custom AI,No,100.00%,1.67
+2026-07-07 08:10:32,unnamed_document,mixed,Auto,handwritten,No,95.00%,0.06
+2026-07-07 08:10:39,unnamed_document,auto,Telugu,Custom AI,No,74.04%,7.61
+2026-07-07 08:15:46,unnamed_document,auto,Telugu,Custom AI,No,100.00%,3.69
+2026-07-07 08:15:47,unnamed_document,mixed,Auto,handwritten,No,95.00%,0.09
+2026-07-07 08:15:59,unnamed_document,auto,Telugu,Custom AI,No,74.04%,12.19
+2026-07-07 08:17:17,WhatsApp Image 2026-07-06 at 1.04.15 PM.jpeg,Auto,Telugu,Custom AI,No,0.00%,91.35
+2026-07-07 08:22:46,unnamed_document,auto,Telugu,Custom AI,No,100.00%,3.49
+2026-07-07 08:22:46,unnamed_document,mixed,Auto,handwritten,No,95.00%,0.18
+2026-07-07 08:22:58,unnamed_document,auto,Telugu,Custom AI,No,74.04%,12.36
+2026-07-07 08:26:28,unnamed_document,auto,Telugu,Custom AI,No,100.00%,5.22
+2026-07-07 08:26:28,unnamed_document,mixed,Auto,handwritten,No,95.00%,0.21
+2026-07-07 08:26:43,unnamed_document,auto,Telugu,Custom AI,No,74.04%,14.18
+2026-07-07 09:31:08,unnamed_document,auto,Telugu,Custom AI,No,100.00%,5.00
+2026-07-07 09:31:08,unnamed_document,mixed,Auto,handwritten,No,95.00%,0.07
+2026-07-07 09:39:35,WhatsApp Image 2026-07-06 at 1.04.15 PM.jpeg,Auto,Telugu,EasyOCR,Yes,78.37%,196.10
+2026-07-07 10:02:55,WhatsApp Image 2026-07-06 at 1.04.15 PM.jpeg,Auto,Telugu,EasyOCR,Yes,78.37%,89.38
+2026-07-07 10:22:36,unnamed_document,auto,Telugu,Custom AI,No,100.00%,1.60
+2026-07-07 10:22:36,unnamed_document,mixed,Auto,handwritten,No,95.00%,0.02
+2026-07-07 10:43:46,WhatsApp Image 2026-07-06 at 1.04.15 PM.jpeg,Auto,Telugu,EasyOCR,Yes,78.37%,137.06
+2026-07-07 10:46:36,unnamed_document,auto,Telugu,Custom AI,No,100.00%,1.71
+2026-07-07 10:46:36,unnamed_document,mixed,Auto,handwritten,No,95.00%,0.04
+2026-07-07 10:49:21,unnamed_document,auto,Auto,Custom AI,No,0.00%,19.86
+2026-07-07 10:49:25,unnamed_document,auto,Auto,Custom AI,No,0.00%,3.67
+2026-07-07 10:49:29,unnamed_document,auto,Auto,Custom AI,No,0.00%,4.61
+2026-07-07 10:49:33,unnamed_document,auto,Auto,Custom AI,No,0.00%,3.73
+2026-07-07 10:49:37,unnamed_document,auto,Auto,Custom AI,No,0.00%,3.56
+2026-07-07 10:49:41,unnamed_document,auto,Auto,Custom AI,No,0.00%,3.81
+2026-07-07 10:49:44,unnamed_document,auto,Auto,Custom AI,No,0.00%,3.13
+2026-07-07 10:49:49,unnamed_document,auto,Auto,Custom AI,No,80.47%,4.62
+2026-07-07 10:49:53,unnamed_document,auto,Auto,Custom AI,No,79.33%,3.89
+2026-07-07 10:49:58,unnamed_document,auto,Auto,Custom AI,No,98.77%,5.06
+2026-07-07 10:50:07,unnamed_document,auto,Auto,Custom AI,No,80.16%,8.62
+2026-07-07 10:50:27,unnamed_document,auto,Auto,Custom AI,No,31.03%,20.67
+2026-07-07 10:50:39,unnamed_document,auto,Auto,Custom AI,No,94.24%,11.59
+2026-07-07 10:50:51,unnamed_document,auto,Auto,Custom AI,No,74.05%,11.91
+2026-07-07 10:51:06,unnamed_document,auto,Auto,Custom AI,No,77.35%,14.82
+2026-07-07 10:51:15,unnamed_document,auto,Auto,Custom AI,No,88.62%,9.72
+2026-07-07 10:51:25,unnamed_document,auto,Auto,Custom AI,No,81.01%,9.78
+2026-07-07 10:51:30,unnamed_document,auto,Auto,Custom AI,No,94.45%,4.86
+2026-07-07 10:51:38,unnamed_document,auto,Auto,Custom AI,No,54.11%,8.09
+2026-07-07 10:51:44,unnamed_document,auto,Auto,Custom AI,No,74.05%,5.48
+2026-07-07 10:51:49,unnamed_document,auto,Auto,Custom AI,No,62.95%,5.78
+2026-07-07 10:51:55,unnamed_document,auto,Auto,Custom AI,No,66.02%,5.46
+2026-07-07 10:51:57,unnamed_document,auto,Auto,Custom AI,No,97.14%,2.70
+2026-07-07 10:52:00,unnamed_document,auto,Auto,Custom AI,No,98.56%,2.62
+2026-07-07 10:52:04,unnamed_document,auto,Auto,Custom AI,No,52.68%,3.82
+2026-07-07 10:52:07,unnamed_document,auto,Auto,Custom AI,No,85.10%,3.15
+2026-07-07 10:52:10,unnamed_document,auto,Auto,Custom AI,No,59.35%,3.23
+2026-07-07 10:52:14,unnamed_document,auto,Auto,Custom AI,No,74.05%,3.39
+2026-07-07 10:52:17,unnamed_document,auto,Auto,Custom AI,No,74.05%,3.19
+2026-07-07 10:52:20,unnamed_document,auto,Auto,Custom AI,No,69.71%,3.39
+2026-07-07 10:52:24,unnamed_document,auto,Auto,Custom AI,No,64.63%,3.23
+2026-07-07 10:52:26,unnamed_document,auto,Auto,Custom AI,No,95.41%,2.49
+2026-07-07 10:52:29,unnamed_document,auto,Auto,Custom AI,No,99.44%,2.62
+2026-07-07 10:52:33,unnamed_document,auto,Auto,Custom AI,No,72.38%,3.94
+2026-07-07 10:52:36,unnamed_document,auto,Auto,Custom AI,No,86.39%,3.60
+2026-07-07 10:52:40,unnamed_document,auto,Auto,Custom AI,No,66.52%,3.30
+2026-07-07 10:52:43,unnamed_document,auto,Auto,Custom AI,No,21.90%,3.26
+2026-07-07 10:52:46,unnamed_document,auto,Auto,Custom AI,No,65.60%,3.14
+2026-07-07 10:52:49,unnamed_document,auto,Auto,Custom AI,No,58.28%,3.23
+2026-07-07 10:52:53,unnamed_document,auto,Auto,Custom AI,No,0.00%,3.39
+2026-07-07 10:52:57,unnamed_document,auto,Auto,Custom AI,No,0.00%,4.48
+2026-07-07 10:52:59,unnamed_document,auto,Auto,Custom AI,No,92.19%,2.26
+2026-07-07 10:53:02,unnamed_document,auto,Auto,Custom AI,No,97.35%,2.57
+2026-07-07 10:53:05,unnamed_document,auto,Auto,Custom AI,No,40.36%,3.57
+2026-07-07 10:53:09,unnamed_document,auto,Auto,Custom AI,No,79.67%,3.20
+2026-07-07 10:53:12,unnamed_document,auto,Auto,Custom AI,No,78.71%,3.10
+2026-07-07 10:53:14,unnamed_document,auto,Auto,Custom AI,No,91.87%,2.11
+2026-07-07 10:53:17,unnamed_document,auto,Auto,Custom AI,No,67.18%,3.20
+2026-07-07 10:53:19,unnamed_document,auto,Auto,Custom AI,No,97.38%,2.30
+2026-07-07 10:53:23,unnamed_document,auto,Auto,Custom AI,No,84.99%,3.30
+2026-07-07 10:53:25,unnamed_document,auto,Auto,Custom AI,No,95.39%,2.31
+2026-07-07 10:53:28,unnamed_document,auto,Auto,Custom AI,No,0.00%,3.12
+2026-07-07 10:53:30,unnamed_document,auto,Auto,Custom AI,No,98.18%,2.30
+2026-07-07 10:53:34,unnamed_document,auto,Auto,Custom AI,No,0.00%,3.24
+2026-07-07 10:53:37,unnamed_document,auto,Auto,Custom AI,No,0.00%,3.34
+2026-07-07 10:53:41,unnamed_document,auto,Auto,Custom AI,No,0.00%,3.79
+2026-07-07 10:53:45,unnamed_document,auto,Auto,Custom AI,No,0.00%,3.78
+2026-07-07 10:53:48,unnamed_document,auto,Auto,Custom AI,No,0.00%,3.73
+2026-07-07 10:53:52,unnamed_document,auto,Auto,Custom AI,No,0.00%,3.45
+2026-07-07 10:53:55,unnamed_document,auto,Auto,Custom AI,No,0.00%,3.58
+2026-07-07 10:53:59,unnamed_document,auto,Auto,Custom AI,No,0.00%,3.81
+2026-07-07 10:54:03,unnamed_document,auto,Auto,Custom AI,No,0.00%,4.21
+2026-07-07 10:54:32,unnamed_document,auto,Auto,Custom AI,No,0.00%,3.23
+2026-07-07 10:54:35,unnamed_document,auto,Auto,Custom AI,No,0.00%,3.12
+2026-07-07 10:54:38,unnamed_document,auto,Auto,Custom AI,No,82.79%,3.41
+2026-07-07 10:54:41,unnamed_document,auto,Auto,Custom AI,No,0.00%,2.99
+2026-07-07 10:54:44,unnamed_document,auto,Auto,Custom AI,No,0.00%,3.03
+2026-07-07 10:54:47,unnamed_document,auto,Auto,Custom AI,No,0.00%,3.13
+2026-07-07 10:54:50,unnamed_document,auto,Auto,Custom AI,No,0.00%,2.96
+2026-07-07 10:54:53,unnamed_document,auto,Auto,Custom AI,No,0.00%,2.92
+2026-07-07 10:54:56,unnamed_document,auto,Auto,Custom AI,No,0.00%,3.08
+2026-07-07 10:54:59,unnamed_document,auto,Auto,Custom AI,No,0.00%,3.06
+2026-07-07 10:55:02,unnamed_document,auto,Auto,Custom AI,No,0.00%,3.09
+2026-07-07 10:55:06,unnamed_document,auto,Auto,Custom AI,No,64.71%,3.25
+2026-07-07 10:55:09,unnamed_document,auto,Auto,Custom AI,No,0.00%,3.08
+2026-07-07 10:55:12,unnamed_document,auto,Auto,Custom AI,No,0.00%,3.10
+2026-07-07 10:55:15,unnamed_document,auto,Auto,Custom AI,No,0.00%,3.10
+2026-07-07 10:55:18,unnamed_document,auto,Auto,Custom AI,No,0.00%,2.99
+2026-07-07 10:55:21,unnamed_document,auto,Auto,Custom AI,No,0.00%,2.91
+2026-07-07 10:55:24,unnamed_document,auto,Auto,Custom AI,No,0.00%,3.08
+2026-07-07 10:55:32,tel demo.jpg,Auto,Auto,Custom AI,Yes,75.96%,90.58
+2026-07-07 10:59:06,unnamed_document,auto,Telugu,Custom AI,No,100.00%,2.20
+2026-07-07 10:59:06,unnamed_document,mixed,Auto,handwritten,No,95.00%,0.06
+2026-07-07 11:23:15,hindi demo.jpg,Auto,Telugu,PaddleOCR,No,63.78%,249.98
+2026-07-07 11:26:30,WhatsApp Image 2026-07-06 at 1.04.15 PM.jpeg,Auto,Telugu,PaddleOCR,Yes,89.27%,124.50
+2026-07-07 11:36:31,telugu handwritten demo.jpg,Auto,Telugu,PaddleOCR,Yes,72.65%,71.08
+2026-07-07 11:44:51,unnamed_document,auto,Telugu,Custom AI,No,100.00%,1.71
+2026-07-07 11:44:51,unnamed_document,mixed,Auto,handwritten,No,95.00%,0.04
+2026-07-07 12:28:34,unnamed_document,auto,Telugu,Custom AI,No,100.00%,1.40
+2026-07-07 12:28:34,unnamed_document,mixed,Auto,handwritten,No,95.00%,0.18
+2026-07-07 12:55:39,unnamed_document,auto,Telugu,Custom AI,No,100.00%,3.00
+2026-07-07 12:55:39,unnamed_document,mixed,Auto,handwritten,No,95.00%,0.06
+2026-07-07 12:58:09,unnamed_document,auto,Telugu,Custom AI,No,100.00%,3.40
+2026-07-07 12:58:09,unnamed_document,mixed,Auto,handwritten,No,95.00%,0.05
+2026-07-07 13:06:49,unnamed_document,auto,Telugu,Custom AI,No,100.00%,1.74
+2026-07-07 13:06:49,unnamed_document,mixed,Auto,handwritten,No,95.00%,0.06
+2026-07-07 13:20:34,unnamed_document,auto,Telugu,Custom AI,No,100.00%,2.06
+2026-07-07 13:20:34,unnamed_document,mixed,Auto,handwritten,No,95.00%,0.03
+2026-07-07 14:22:15,unnamed_document,auto,Telugu,Custom AI,No,100.00%,3.43
+2026-07-07 14:22:15,unnamed_document,mixed,Auto,handwritten,No,95.00%,0.05
+2026-07-07 14:27:13,unnamed_document,auto,Telugu,Custom AI,No,100.00%,1.98
+2026-07-07 14:27:13,unnamed_document,mixed,Auto,handwritten,No,95.00%,0.05
+2026-07-07 14:27:47,telugu handwritten demo.jpg,Auto,Telugu,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,65.00%,118.43
+2026-07-07 14:34:21,unnamed_document,auto,Telugu,Custom AI,No,100.00%,1.30
+2026-07-07 14:34:21,unnamed_document,mixed,Auto,handwritten,No,95.00%,0.03
+2026-07-07 14:37:33,WhatsApp Image 2026-07-06 at 1.04.15 PM.jpeg,Auto,Telugu,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,41.91%,116.36
+2026-07-07 14:43:05,unnamed_document,auto,Telugu,Custom AI,No,100.00%,1.52
+2026-07-07 14:43:05,unnamed_document,mixed,Auto,handwritten,No,95.00%,0.05
+2026-07-07 14:44:24,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,0.00%,7.81
+2026-07-07 14:44:26,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,0.00%,2.30
+2026-07-07 14:44:28,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,0.00%,2.20
+2026-07-07 14:44:31,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,0.00%,2.33
+2026-07-07 14:44:33,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,0.00%,2.35
+2026-07-07 14:44:35,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,0.00%,2.15
+2026-07-07 14:44:38,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,0.00%,2.32
+2026-07-07 14:44:40,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,0.00%,2.39
+2026-07-07 14:44:42,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,0.00%,2.29
+2026-07-07 14:44:45,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,0.00%,2.39
+2026-07-07 14:44:47,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,0.00%,2.39
+2026-07-07 14:44:50,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,16.63%,2.62
+2026-07-07 14:44:52,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,19.91%,2.61
+2026-07-07 14:44:55,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,16.80%,2.61
+2026-07-07 14:44:58,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,11.61%,3.01
+2026-07-07 14:45:01,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,18.89%,2.69
+2026-07-07 14:45:03,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,21.27%,2.48
+2026-07-07 14:45:06,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,22.53%,2.67
+2026-07-07 14:45:08,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,19.15%,2.62
+2026-07-07 14:45:11,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,19.92%,2.54
+2026-07-07 14:45:13,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,24.55%,2.46
+2026-07-07 14:45:16,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,10.82%,2.76
+2026-07-07 14:45:19,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,13.57%,2.82
+2026-07-07 14:45:22,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,13.51%,2.93
+2026-07-07 14:45:25,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,16.80%,2.69
+2026-07-07 14:45:28,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,13.49%,2.91
+2026-07-07 14:45:30,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,24.19%,2.55
+2026-07-07 14:45:33,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,20.24%,2.67
+2026-07-07 14:45:36,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,16.80%,2.79
+2026-07-07 14:45:38,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,13.50%,2.81
+2026-07-07 14:45:41,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,9.33%,2.76
+2026-07-07 14:45:44,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,10.33%,2.56
+2026-07-07 14:45:46,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,16.80%,2.28
+2026-07-07 14:45:49,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,14.57%,2.75
+2026-07-07 14:45:51,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,14.73%,2.38
+2026-07-07 14:45:54,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,24.53%,2.53
+2026-07-07 14:45:56,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,17.07%,2.40
+2026-07-07 14:45:58,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,16.80%,2.39
+2026-07-07 14:46:01,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,16.80%,2.47
+2026-07-07 14:46:03,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,14.93%,2.47
+2026-07-07 14:46:06,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,14.42%,2.58
+2026-07-07 14:46:08,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,24.60%,2.54
+2026-07-07 14:46:11,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,23.29%,2.64
+2026-07-07 14:46:15,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,21.65%,3.53
+2026-07-07 14:46:18,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,16.67%,2.94
+2026-07-07 14:46:20,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,17.89%,2.70
+2026-07-07 14:46:23,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,18.15%,2.48
+2026-07-07 14:46:25,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,21.06%,2.44
+2026-07-07 14:46:28,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,11.64%,2.57
+2026-07-07 14:46:30,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,0.00%,2.17
+2026-07-07 14:46:32,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,0.00%,2.21
+2026-07-07 14:46:34,unnamed_document,auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,0.00%,2.16
+2026-07-07 14:46:44,tel demo.jpg,Auto,Auto,Ensemble (PaddleOCR+Tesseract+EasyOCR+Custom AI),Yes,44.80%,240.99
+2026-07-07 14:48:14,unnamed_document,auto,Telugu,Custom AI,No,100.00%,1.18
+2026-07-07 14:48:14,unnamed_document,mixed,Auto,handwritten,No,95.00%,0.03
+2026-07-07 14:50:28,unnamed_document,auto,Telugu,Custom AI,No,100.00%,1.33
+2026-07-07 14:50:28,unnamed_document,mixed,Auto,handwritten,No,95.00%,0.03
+2026-07-07 14:56:23,unnamed_document,auto,Telugu,Custom AI,No,100.00%,1.87
+2026-07-07 14:56:23,unnamed_document,mixed,Auto,handwritten,No,95.00%,0.04
+2026-07-07 15:26:34,unnamed_document,auto,Telugu,Custom AI,No,100.00%,1.20
+2026-07-07 15:26:34,unnamed_document,mixed,Auto,handwritten,No,95.00%,0.03
+2026-07-07 15:28:48,unnamed_document,auto,Telugu,Custom AI,No,100.00%,2.32
+2026-07-07 15:28:48,unnamed_document,mixed,Auto,handwritten,No,95.00%,0.08
+2026-07-07 15:34:27,unnamed_document,auto,Telugu,Custom AI,No,100.00%,1.22
+2026-07-07 15:34:27,unnamed_document,mixed,Auto,handwritten,No,95.00%,0.04
+2026-07-07 15:40:07,unnamed_document,auto,Telugu,Custom AI,No,100.00%,1.97
+2026-07-07 15:40:07,unnamed_document,mixed,Auto,handwritten,No,95.00%,0.06
+2026-07-07 15:42:37,unnamed_document,auto,Telugu,Custom AI,No,100.00%,1.34
+2026-07-07 15:42:38,unnamed_document,mixed,Auto,handwritten,No,95.00%,0.05
+2026-07-07 16:09:07,WhatsApp Image 2026-07-07 at 3.48.52 PM.jpeg,Auto,Telugu,Ensemble (PaddleOCR+Tesseract),Yes,44.16%,41.07
+2026-07-07 16:14:19,WhatsApp Image 2026-07-07 at 3.48.53 PM.jpeg,Auto,Telugu,Ensemble (PaddleOCR+Tesseract+EasyOCR),Yes,25.89%,101.54
+2026-07-07 16:40:39,JOSHITHA.pdf_page_1,Auto,Telugu,Ensemble (PaddleOCR+EasyOCR),Yes,49.71%,251.71
+2026-07-07 16:46:21,transcript......pdf_page_1,Auto,Telugu,Ensemble (PaddleOCR+Tesseract),Yes,52.67%,180.73
+2026-07-07 16:51:26,transcript......pdf_page_1,Printed,English,PaddleOCR,No,98.63%,34.35
+2026-07-07 19:45:23,telugu.jpg,Handwritten,Telugu,Ensemble (Custom AI+PaddleOCR+Tesseract+EasyOCR),Yes,32.65%,111.47
+2026-07-07 20:09:03,hindi.jpg,Handwritten,Hindi,PaddleOCR,Yes,88.93%,72.79
+2026-07-07 20:11:11,hindi.jpg,Handwritten,Hindi,PaddleOCR,Yes,88.93%,57.55
+2026-07-07 20:14:20,telugu handwritten demo.jpg,Auto,Telugu,Tesseract,Yes,93.50%,30.89
+2026-07-07 22:02:33,telugu.jpg,Auto,Telugu,PaddleOCR,Yes,90.52%,68.92
+2026-07-07 22:04:48,WhatsApp Image 2026-07-07 at 3.48.53 PM.jpeg,Handwritten,Hindi,PaddleOCR,Yes,59.99%,29.88
+2026-07-07 22:06:47,WhatsApp Image 2026-07-07 at 3.48.52 PM.jpeg,Handwritten,Telugu,PaddleOCR,Yes,88.32%,36.54
+2026-07-07 22:10:56,hindi greeting.jpeg,Auto,Hindi,PaddleOCR,Yes,86.46%,5.80
+2026-07-07 22:11:25,hindi greeting.jpeg,Printed,Hindi,PaddleOCR,Yes,86.46%,3.19
+2026-07-07 22:11:45,hindi greeting.jpeg,Printed,Hindi,PaddleOCR,Yes,86.46%,3.14
+2026-07-07 22:21:52,telugu handwritten demo.jpg,Auto,Telugu,Tesseract,Yes,93.50%,48.75
+2026-07-07 22:33:11,WhatsApp Image 2026-07-06 at 1.04.15 PM.jpeg,Handwritten,Telugu,PaddleOCR,Yes,89.27%,96.53
+2026-07-07 22:46:32,hindi.jpg,Handwritten,Hindi,PaddleOCR,Yes,88.93%,96.13
+2026-07-07 22:47:17,hindi.jpg,Handwritten,Hindi,PaddleOCR,Yes,88.93%,83.10
+2026-07-08 08:32:27,telugu handwritten demo.jpg,Auto,Telugu,Tesseract,Yes,95.00%,19.22
+2026-07-08 08:40:14,hindi greeting.jpeg,Printed,Hindi,Surya OCR,Yes,96.35%,21.02
+2026-07-08 08:41:34,hindi.jpg,Handwritten,Hindi,Tesseract,Yes,54.20%,23.27
+2026-07-08 08:45:06,telugu.jpg,Handwritten,Telugu,SecureIndicHTR,Yes,0.00%,3.11
+2026-07-08 09:12:48,hindi greeting.jpeg,Printed,Hindi,Surya OCR,Yes,96.35%,23.08
+2026-07-08 09:19:48,eng greeting.png,Printed,English,Surya OCR,Yes,90.61%,9.20
+2026-07-08 09:41:40,hindi greeting.jpeg,Printed,Hindi,Surya OCR,Yes,96.35%,7.95
+2026-07-08 09:49:31,hindi greeting.jpeg,Printed,Hindi,Surya OCR,Yes,96.35%,6.78
+2026-07-08 10:52:56,hindi greeting.jpeg,Printed,Hindi,Surya OCR,Yes,96.35%,5.69
+2026-07-08 11:55:16,telugu handwritten demo.jpg,Printed,Telugu,Tesseract,Yes,95.00%,29.55
+2026-07-08 12:00:59,hindi demo.jpg,Handwritten,Hindi,SecureIndicHTR,Yes,36.46%,74.29
+2026-07-08 12:08:08,tel demo.jpg,Handwritten,Telugu,SecureIndicHTR,Yes,59.78%,223.04
+2026-07-08 12:12:49,WhatsApp Image 2026-07-06 at 1.04.15 PM.jpeg,Handwritten,Telugu,Tesseract,Yes,30.00%,12.85
+2026-07-08 12:35:57,hindi greeting.jpeg,Auto,Hindi,Tesseract,Yes,33.00%,11.31
+2026-07-08 12:38:46,hindi.jpg,Handwritten,Hindi,Tesseract,Yes,68.60%,29.31
+2026-07-08 13:48:31,telugu.jpg,Handwritten,Telugu,PaddleOCR PP-OCRv5,Yes,87.87%,29.94
+2026-07-08 13:58:35,telugu-370x370.png,Printed,Telugu,Surya OCR,Yes,98.20%,8.61
+2026-07-08 14:00:05,motivational-hindi-quote-poster.jpg,Printed,Hindi,Surya OCR,Yes,67.31%,6.88
+2026-07-08 14:02:07,unnamed_document,auto,Auto,Surya OCR,Yes,0.00%,1.10
+2026-07-08 14:02:08,unnamed_document,auto,Auto,Surya OCR,Yes,0.00%,1.03
+2026-07-08 14:02:10,unnamed_document,auto,Auto,Surya OCR,Yes,0.00%,1.49
+2026-07-08 14:02:11,unnamed_document,auto,Auto,Surya OCR,Yes,0.00%,1.04
+2026-07-08 14:02:12,unnamed_document,auto,Auto,Surya OCR,Yes,0.00%,0.98
+2026-07-08 14:02:13,unnamed_document,auto,Auto,Surya OCR,Yes,0.00%,1.01
+2026-07-08 14:02:16,unnamed_document,auto,Auto,SecureIndicHTR,Yes,0.00%,3.12
+2026-07-08 14:02:19,unnamed_document,auto,Auto,SecureIndicHTR,Yes,0.00%,3.20
+2026-07-08 14:02:22,unnamed_document,auto,Auto,SecureIndicHTR,Yes,0.00%,3.06
+2026-07-08 14:02:26,Hindi-1.jpg,Auto,Hindi,Tesseract,Yes,94.00%,22.96
+2026-07-08 14:03:27,eng greeting.png,Auto,English,Surya OCR,Yes,82.74%,3.29
+2026-07-08 14:07:24,Screenshot (702).png,Printed,English,Surya OCR,Yes,97.60%,5.99
+2026-07-08 14:14:36,Screenshot (703).png,Printed,Hindi,Tesseract,Yes,85.50%,7.07
+2026-07-08 14:16:08,Screenshot (704).png,Printed,Telugu,Surya OCR,Yes,98.56%,4.78
+2026-07-08 20:00:42,camera_capture.png,Printed,Telugu,Surya OCR,Yes,98.20%,32.35
+2026-07-08 20:58:10,transcript......pdf_page_1,Printed,English,Surya OCR,Yes,91.73%,669.59

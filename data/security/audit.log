@@ -1,0 +1,555 @@
+[2026-07-06 23:21:54] [AUDIT] [Login] User joshithagosangari@gmail.com logged in (verified: False)
+[2026-07-06 23:25:04] [AUDIT] [Login] User joshithagosangari@gmail.com logged in (verified: False)
+[2026-07-07 07:59:10] [AUDIT] [Login] User joshithagosangari@gmail.com logged in (verified: False)
+[2026-07-07 09:10:46] [AUDIT] [Login] User joshithagosangari@gmail.com logged in (verified: False)
+[2026-07-07 09:59:39] [AUDIT] [Login] User joshithagosangari@gmail.com logged in (verified: False)
+[2026-07-07 10:20:51] [AUDIT] [Login] User joshithagosangari@gmail.com logged in (verified: False)
+[2026-07-07 10:23:46] [AUDIT] [Login] User joshithagosangari@gmail.com logged in (verified: False)
+[2026-07-07 10:27:58] [AUDIT] [Login] User joshithagosangari@gmail.com logged in (verified: False)
+[2026-07-07 10:34:42] [AUDIT] [Signup] Account created for test@example.com with role Researcher
+[2026-07-07 10:35:22] [AUDIT] [Login] User test@example.com logged in (verified: False)
+[2026-07-07 10:39:42] [AUDIT] [Login] User test@example.com logged in (verified: False)
+[2026-07-07 10:43:50] [AUDIT] [Encryption] Encrypted 18 chars (compressed: True) in 73.81ms
+[2026-07-07 10:43:50] [AUDIT] [Block Added] Block 1 saved with record_id WhatsApp Image 2026-07-06 at 1.04.15 PM.jpeg
+[2026-07-07 10:55:34] [AUDIT] [Encryption] Encrypted 2880 chars (compressed: True) in 21.92ms
+[2026-07-07 10:55:34] [AUDIT] [Block Added] Block 2 saved with record_id tel demo.jpg
+[2026-07-07 11:17:48] [AUDIT] [Login] User test@example.com logged in (verified: False)
+[2026-07-07 11:19:30] [AUDIT] [Signup] Account created for testnewuser@example.com with role Researcher
+[2026-07-07 11:20:41] [AUDIT] [Login] User testnewuser@example.com logged in (verified: False)
+[2026-07-07 11:23:16] [AUDIT] [Encryption] Encrypted 105 chars (compressed: True) in 24.43ms
+[2026-07-07 11:23:17] [AUDIT] [Block Added] Block 3 saved with record_id hindi demo.jpg
+[2026-07-07 11:26:34] [AUDIT] [Encryption] Encrypted 17 chars (compressed: True) in 31.41ms
+[2026-07-07 11:26:34] [AUDIT] [Block Added] Block 4 saved with record_id WhatsApp Image 2026-07-06 at 1.04.15 PM.jpeg
+[2026-07-07 11:36:36] [AUDIT] [Encryption] Encrypted 17 chars (compressed: True) in 25.01ms
+[2026-07-07 11:36:36] [AUDIT] [Block Added] Block 5 saved with record_id telugu handwritten demo.jpg
+[2026-07-07 12:22:56] [AUDIT] [Login] User joshithagosangari@gmail.com logged in (verified: False)
+[2026-07-07 12:22:56] [AUDIT] [Encryption] Encrypted 247 chars (compressed: True) in 24.09ms
+[2026-07-07 12:29:17] [AUDIT] [Decryption] Decrypted 247 chars in 2.93ms
+[2026-07-07 12:33:42] [AUDIT] [Decryption] Decrypted 247 chars in 15.13ms
+[2026-07-07 12:34:15] [AUDIT] [Decryption] Decrypted 247 chars in 4.39ms
+[2026-07-07 12:34:31] [AUDIT] [Decryption] Decrypted 247 chars in 1.05ms
+[2026-07-07 12:34:58] [AUDIT] [Decryption] Decrypted 247 chars in 2.04ms
+[2026-07-07 12:35:38] [AUDIT] [Decryption] Decrypted 247 chars in 0.83ms
+[2026-07-07 12:36:28] [AUDIT] [Decryption] Decrypted 247 chars in 2.90ms
+[2026-07-07 12:54:02] [AUDIT] [Decryption] Decrypted 247 chars in 17.36ms
+[2026-07-07 12:54:11] [AUDIT] [Decryption] Decrypted 247 chars in 1.36ms
+[2026-07-07 12:58:03] [AUDIT] [Decryption] Decrypted 247 chars in 38.23ms
+[2026-07-07 12:58:22] [AUDIT] [Decryption] Decrypted 247 chars in 1.05ms
+[2026-07-07 13:00:05] [AUDIT] [Decryption] Decrypted 247 chars in 0.66ms
+[2026-07-07 13:01:56] [AUDIT] [Decryption] Decrypted 247 chars in 3.78ms
+[2026-07-07 13:18:29] [AUDIT] [Decryption] Decrypted 247 chars in 4.04ms
+[2026-07-07 13:21:44] [AUDIT] [Decryption] Decrypted 247 chars in 0.51ms
+[2026-07-07 14:19:10] [AUDIT] [Decryption] Decrypted 247 chars in 2.37ms
+[2026-07-07 14:27:48] [AUDIT] [Encryption] Encrypted 21 chars (compressed: True) in 24.04ms
+[2026-07-07 14:27:49] [AUDIT] [Block Added] Block 6 saved with record_id telugu handwritten demo.jpg
+[2026-07-07 14:37:36] [AUDIT] [Encryption] Encrypted 17 chars (compressed: True) in 17.81ms
+[2026-07-07 14:37:36] [AUDIT] [Block Added] Block 7 saved with record_id WhatsApp Image 2026-07-06 at 1.04.15 PM.jpeg
+[2026-07-07 14:46:49] [AUDIT] [Encryption] Encrypted 2568 chars (compressed: True) in 23.26ms
+[2026-07-07 14:46:49] [AUDIT] [Block Added] Block 8 saved with record_id tel demo.jpg
+[2026-07-07 14:54:33] [AUDIT] [Encryption] Encrypted 843 chars (compressed: True) in 11.10ms
+[2026-07-07 14:54:33] [AUDIT] [Drive Connected] Saved encrypted Drive credentials for joshithagosangari@gmail.com
+[2026-07-07 14:57:04] [AUDIT] [Decryption] Decrypted 247 chars in 348.80ms
+[2026-07-07 14:57:10] [AUDIT] [Decryption] Decrypted 843 chars in 139.92ms
+[2026-07-07 15:06:26] [AUDIT] [Decryption] Decrypted 247 chars in 34.61ms
+[2026-07-07 15:06:28] [AUDIT] [Decryption] Decrypted 843 chars in 11.48ms
+[2026-07-07 15:06:38] [AUDIT] [Decryption] Decrypted 247 chars in 40.28ms
+[2026-07-07 15:06:41] [AUDIT] [Decryption] Decrypted 843 chars in 0.69ms
+[2026-07-07 15:08:28] [AUDIT] [Decryption] Decrypted 247 chars in 5.81ms
+[2026-07-07 15:08:29] [AUDIT] [Decryption] Decrypted 247 chars in 2.72ms
+[2026-07-07 15:08:30] [AUDIT] [Decryption] Decrypted 843 chars in 0.58ms
+[2026-07-07 15:08:31] [AUDIT] [Decryption] Decrypted 843 chars in 1.44ms
+[2026-07-07 15:11:49] [AUDIT] [Decryption] Decrypted 247 chars in 22.07ms
+[2026-07-07 15:11:51] [AUDIT] [Decryption] Decrypted 843 chars in 0.84ms
+[2026-07-07 15:12:44] [AUDIT] [Decryption] Decrypted 247 chars in 2.86ms
+[2026-07-07 15:12:46] [AUDIT] [Decryption] Decrypted 843 chars in 1.26ms
+[2026-07-07 15:15:48] [AUDIT] [Decryption] Decrypted 247 chars in 36.55ms
+[2026-07-07 15:15:50] [AUDIT] [Decryption] Decrypted 843 chars in 0.45ms
+[2026-07-07 16:04:26] [AUDIT] [Decryption] Decrypted 247 chars in 1.99ms
+[2026-07-07 16:04:28] [AUDIT] [Decryption] Decrypted 843 chars in 0.60ms
+[2026-07-07 16:04:28] [AUDIT] [Encryption] Encrypted 850 chars (compressed: True) in 0.86ms
+[2026-07-07 16:04:28] [AUDIT] [Drive Connected] Saved encrypted Drive credentials for joshithagosangari@gmail.com
+[2026-07-07 16:14:22] [AUDIT] [Encryption] Encrypted 15 chars (compressed: True) in 20.50ms
+[2026-07-07 16:14:22] [AUDIT] [Block Added] Block 9 saved with record_id WhatsApp Image 2026-07-07 at 3.48.53 PM.jpeg
+[2026-07-07 16:17:43] [AUDIT] [Encryption] Encrypted 15 chars (compressed: True) in 0.29ms
+[2026-07-07 16:17:45] [AUDIT] [Encryption] Encrypted 15 chars (compressed: True) in 0.29ms
+[2026-07-07 16:17:52] [AUDIT] [Encryption] Encrypted 323 chars (compressed: True) in 0.30ms
+[2026-07-07 16:18:03] [AUDIT] [Encryption] Encrypted 15 chars (compressed: True) in 0.33ms
+[2026-07-07 16:18:05] [AUDIT] [Encryption] Encrypted 15 chars (compressed: True) in 0.24ms
+[2026-07-07 16:18:12] [AUDIT] [Encryption] Encrypted 323 chars (compressed: True) in 0.31ms
+[2026-07-07 16:18:23] [AUDIT] [Encryption] Encrypted 15 chars (compressed: True) in 0.32ms
+[2026-07-07 16:18:25] [AUDIT] [Encryption] Encrypted 15 chars (compressed: True) in 0.29ms
+[2026-07-07 16:18:32] [AUDIT] [Encryption] Encrypted 292 chars (compressed: True) in 0.29ms
+[2026-07-07 16:18:34] [AUDIT] [Encryption] Encrypted 15 chars (compressed: True) in 0.81ms
+[2026-07-07 16:18:36] [AUDIT] [Encryption] Encrypted 15 chars (compressed: True) in 0.20ms
+[2026-07-07 16:18:42] [AUDIT] [Encryption] Encrypted 292 chars (compressed: True) in 0.42ms
+[2026-07-07 16:23:30] [AUDIT] [Encryption] Encrypted 4 chars (compressed: True) in 12.71ms
+[2026-07-07 16:23:30] [AUDIT] [Block Added] Block 10 saved with record_id WhatsApp Image 2026-07-07 at 3.48.52 PM.jpeg
+[2026-07-07 16:25:19] [AUDIT] [Encryption] Encrypted 4 chars (compressed: True) in 0.21ms
+[2026-07-07 16:25:21] [AUDIT] [Encryption] Encrypted 4 chars (compressed: True) in 0.25ms
+[2026-07-07 16:25:28] [AUDIT] [Encryption] Encrypted 290 chars (compressed: True) in 0.33ms
+[2026-07-07 16:26:30] [AUDIT] [Decryption] Decrypted 4 chars in 10.79ms
+[2026-07-07 16:26:38] [AUDIT] [Decryption] Decrypted 15 chars in 0.20ms
+[2026-07-07 16:26:40] [AUDIT] [Decryption] Decrypted 15 chars in 0.28ms
+[2026-07-07 16:26:50] [AUDIT] [Decryption] Decrypted 15 chars in 0.28ms
+[2026-07-07 16:26:58] [AUDIT] [Decryption] Decrypted 15 chars in 0.18ms
+[2026-07-07 16:27:06] [AUDIT] [Decryption] Decrypted 15 chars in 0.27ms
+[2026-07-07 16:40:45] [AUDIT] [Encryption] Encrypted 3412 chars (compressed: True) in 21.88ms
+[2026-07-07 16:40:45] [AUDIT] [Block Added] Block 11 saved with record_id JOSHITHA.pdf
+[2026-07-07 16:46:31] [AUDIT] [Encryption] Encrypted 2258 chars (compressed: True) in 25.92ms
+[2026-07-07 16:46:31] [AUDIT] [Block Added] Block 12 saved with record_id transcript......pdf
+[2026-07-07 16:51:49] [AUDIT] [Encryption] Encrypted 1852 chars (compressed: True) in 79.70ms
+[2026-07-07 16:51:49] [AUDIT] [Block Added] Block 13 saved with record_id transcript......pdf
+[2026-07-07 16:54:25] [AUDIT] [Encryption] Encrypted 1852 chars (compressed: True) in 10.77ms
+[2026-07-07 16:54:27] [AUDIT] [Encryption] Encrypted 1852 chars (compressed: True) in 0.81ms
+[2026-07-07 16:54:34] [AUDIT] [Encryption] Encrypted 275 chars (compressed: True) in 0.34ms
+[2026-07-07 16:54:36] [AUDIT] [Encryption] Encrypted 1852 chars (compressed: True) in 0.44ms
+[2026-07-07 16:54:38] [AUDIT] [Encryption] Encrypted 1852 chars (compressed: True) in 0.36ms
+[2026-07-07 16:54:44] [AUDIT] [Encryption] Encrypted 275 chars (compressed: True) in 0.27ms
+[2026-07-07 19:41:22] [AUDIT] [Decryption] Decrypted 247 chars in 6.04ms
+[2026-07-07 19:41:24] [AUDIT] [Decryption] Decrypted 850 chars in 0.54ms
+[2026-07-07 19:41:25] [AUDIT] [Encryption] Encrypted 851 chars (compressed: True) in 1.10ms
+[2026-07-07 19:41:25] [AUDIT] [Drive Connected] Saved encrypted Drive credentials for joshithagosangari@gmail.com
+[2026-07-07 19:45:25] [AUDIT] [Encryption] Encrypted 25 chars (compressed: True) in 19.63ms
+[2026-07-07 19:45:25] [AUDIT] [Block Added] Block 14 saved with record_id telugu.jpg
+[2026-07-07 19:46:16] [AUDIT] [Encryption] Encrypted 25 chars (compressed: True) in 0.41ms
+[2026-07-07 19:46:19] [AUDIT] [Encryption] Encrypted 25 chars (compressed: True) in 0.55ms
+[2026-07-07 19:46:26] [AUDIT] [Encryption] Encrypted 302 chars (compressed: True) in 0.55ms
+[2026-07-07 19:46:36] [AUDIT] [Encryption] Encrypted 25 chars (compressed: True) in 0.45ms
+[2026-07-07 19:46:39] [AUDIT] [Encryption] Encrypted 25 chars (compressed: True) in 0.25ms
+[2026-07-07 19:46:47] [AUDIT] [Encryption] Encrypted 302 chars (compressed: True) in 0.34ms
+[2026-07-07 19:47:13] [AUDIT] [Encryption] Encrypted 25 chars (compressed: True) in 0.71ms
+[2026-07-07 19:47:15] [AUDIT] [Encryption] Encrypted 25 chars (compressed: True) in 0.24ms
+[2026-07-07 19:47:25] [AUDIT] [Encryption] Encrypted 302 chars (compressed: True) in 0.27ms
+[2026-07-07 19:47:31] [AUDIT] [Decryption] Decrypted 25 chars in 2.16ms
+[2026-07-07 19:47:40] [AUDIT] [Decryption] Decrypted 25 chars in 0.30ms
+[2026-07-07 19:47:50] [AUDIT] [Decryption] Decrypted 25 chars in 0.29ms
+[2026-07-07 19:47:59] [AUDIT] [Decryption] Decrypted 25 chars in 0.40ms
+[2026-07-07 19:48:08] [AUDIT] [Decryption] Decrypted 1852 chars in 0.37ms
+[2026-07-07 19:48:17] [AUDIT] [Decryption] Decrypted 1852 chars in 0.59ms
+[2026-07-07 19:48:27] [AUDIT] [Decryption] Decrypted 4 chars in 0.28ms
+[2026-07-07 19:48:36] [AUDIT] [Decryption] Decrypted 15 chars in 0.32ms
+[2026-07-07 19:49:08] [AUDIT] [Decryption] Decrypted 15 chars in 0.21ms
+[2026-07-07 19:49:17] [AUDIT] [Decryption] Decrypted 15 chars in 0.71ms
+[2026-07-07 19:49:39] [AUDIT] [Decryption] Decrypted 15 chars in 0.31ms
+[2026-07-07 19:49:48] [AUDIT] [Decryption] Decrypted 15 chars in 0.27ms
+[2026-07-07 19:49:58] [AUDIT] [Decryption] Decrypted 15 chars in 0.60ms
+[2026-07-07 19:52:41] [AUDIT] [Encryption] Encrypted 4 chars (compressed: True) in 0.35ms
+[2026-07-07 19:53:01] [AUDIT] [Decryption] Decrypted 247 chars in 0.72ms
+[2026-07-07 19:53:03] [AUDIT] [Decryption] Decrypted 851 chars in 0.32ms
+[2026-07-07 19:54:44] [AUDIT] [Decryption] Decrypted 247 chars in 0.59ms
+[2026-07-07 19:54:46] [AUDIT] [Decryption] Decrypted 851 chars in 0.42ms
+[2026-07-07 19:55:41] [AUDIT] [Decryption] Decrypted 25 chars in 0.21ms
+[2026-07-07 19:55:50] [AUDIT] [Decryption] Decrypted 25 chars in 0.53ms
+[2026-07-07 19:55:59] [AUDIT] [Decryption] Decrypted 25 chars in 0.27ms
+[2026-07-07 19:56:10] [AUDIT] [Decryption] Decrypted 1852 chars in 0.21ms
+[2026-07-07 19:56:20] [AUDIT] [Decryption] Decrypted 1852 chars in 0.34ms
+[2026-07-07 19:56:30] [AUDIT] [Decryption] Decrypted 4 chars in 0.32ms
+[2026-07-07 19:56:39] [AUDIT] [Decryption] Decrypted 15 chars in 0.17ms
+[2026-07-07 19:56:47] [AUDIT] [Decryption] Decrypted 15 chars in 0.29ms
+[2026-07-07 19:56:56] [AUDIT] [Decryption] Decrypted 15 chars in 0.42ms
+[2026-07-07 19:57:06] [AUDIT] [Decryption] Decrypted 15 chars in 0.21ms
+[2026-07-07 20:09:05] [AUDIT] [Encryption] Encrypted 11 chars (compressed: True) in 34.91ms
+[2026-07-07 20:09:05] [AUDIT] [Block Added] Block 15 saved with record_id hindi.jpg
+[2026-07-07 20:11:14] [AUDIT] [Encryption] Encrypted 11 chars (compressed: True) in 20.97ms
+[2026-07-07 20:11:14] [AUDIT] [Block Added] Block 16 saved with record_id hindi.jpg
+[2026-07-07 20:14:22] [AUDIT] [Encryption] Encrypted 20 chars (compressed: True) in 8.53ms
+[2026-07-07 20:14:22] [AUDIT] [Block Added] Block 17 saved with record_id telugu handwritten demo.jpg
+[2026-07-07 20:15:12] [AUDIT] [Encryption] Encrypted 20 chars (compressed: True) in 0.26ms
+[2026-07-07 20:15:15] [AUDIT] [Encryption] Encrypted 20 chars (compressed: True) in 0.30ms
+[2026-07-07 20:15:15] [AUDIT] [Encryption] Encrypted 20 chars (compressed: True) in 0.27ms
+[2026-07-07 20:15:18] [AUDIT] [Encryption] Encrypted 20 chars (compressed: True) in 0.39ms
+[2026-07-07 20:15:22] [AUDIT] [Encryption] Encrypted 259 chars (compressed: True) in 0.25ms
+[2026-07-07 20:15:23] [AUDIT] [Encryption] Encrypted 20 chars (compressed: True) in 0.25ms
+[2026-07-07 20:15:25] [AUDIT] [Encryption] Encrypted 259 chars (compressed: True) in 0.31ms
+[2026-07-07 20:15:25] [AUDIT] [Encryption] Encrypted 20 chars (compressed: True) in 0.28ms
+[2026-07-07 20:15:32] [AUDIT] [Encryption] Encrypted 259 chars (compressed: True) in 0.25ms
+[2026-07-07 20:15:34] [AUDIT] [Encryption] Encrypted 20 chars (compressed: True) in 0.30ms
+[2026-07-07 20:15:36] [AUDIT] [Encryption] Encrypted 20 chars (compressed: True) in 1.61ms
+[2026-07-07 20:15:37] [AUDIT] [Encryption] Encrypted 20 chars (compressed: True) in 0.29ms
+[2026-07-07 20:15:38] [AUDIT] [Encryption] Encrypted 20 chars (compressed: True) in 0.27ms
+[2026-07-07 20:15:42] [AUDIT] [Encryption] Encrypted 20 chars (compressed: True) in 0.24ms
+[2026-07-07 20:15:43] [AUDIT] [Encryption] Encrypted 259 chars (compressed: True) in 0.68ms
+[2026-07-07 20:15:44] [AUDIT] [Encryption] Encrypted 20 chars (compressed: True) in 0.22ms
+[2026-07-07 20:15:45] [AUDIT] [Encryption] Encrypted 259 chars (compressed: True) in 5.27ms
+[2026-07-07 20:15:47] [AUDIT] [Encryption] Encrypted 20 chars (compressed: True) in 0.30ms
+[2026-07-07 20:15:49] [AUDIT] [Encryption] Encrypted 20 chars (compressed: True) in 0.30ms
+[2026-07-07 20:15:53] [AUDIT] [Encryption] Encrypted 259 chars (compressed: True) in 0.29ms
+[2026-07-07 20:15:58] [AUDIT] [Encryption] Encrypted 259 chars (compressed: True) in 0.22ms
+[2026-07-07 20:17:28] [AUDIT] [Encryption] Encrypted 20 chars (compressed: True) in 1.29ms
+[2026-07-07 20:17:29] [AUDIT] [Encryption] Encrypted 20 chars (compressed: True) in 0.37ms
+[2026-07-07 20:17:31] [AUDIT] [Encryption] Encrypted 20 chars (compressed: True) in 0.95ms
+[2026-07-07 20:17:31] [AUDIT] [Encryption] Encrypted 20 chars (compressed: True) in 0.25ms
+[2026-07-07 20:17:37] [AUDIT] [Encryption] Encrypted 267 chars (compressed: True) in 0.38ms
+[2026-07-07 20:17:38] [AUDIT] [Encryption] Encrypted 267 chars (compressed: True) in 0.68ms
+[2026-07-07 20:17:53] [AUDIT] [Encryption] Encrypted 20 chars (compressed: True) in 0.70ms
+[2026-07-07 20:17:55] [AUDIT] [Encryption] Encrypted 20 chars (compressed: True) in 2.34ms
+[2026-07-07 20:18:01] [AUDIT] [Encryption] Encrypted 20 chars (compressed: True) in 2.10ms
+[2026-07-07 20:18:02] [AUDIT] [Encryption] Encrypted 259 chars (compressed: True) in 0.30ms
+[2026-07-07 20:18:05] [AUDIT] [Encryption] Encrypted 20 chars (compressed: True) in 0.23ms
+[2026-07-07 20:18:12] [AUDIT] [Encryption] Encrypted 259 chars (compressed: True) in 0.64ms
+[2026-07-07 21:52:19] [AUDIT] [Decryption] Decrypted 247 chars in 10.94ms
+[2026-07-07 21:52:21] [AUDIT] [Decryption] Decrypted 851 chars in 0.57ms
+[2026-07-07 21:52:22] [AUDIT] [Encryption] Encrypted 851 chars (compressed: True) in 8.21ms
+[2026-07-07 21:52:22] [AUDIT] [Drive Connected] Saved encrypted Drive credentials for joshithagosangari@gmail.com
+[2026-07-07 21:54:29] [AUDIT] [Decryption] Decrypted 247 chars in 0.39ms
+[2026-07-07 21:54:31] [AUDIT] [Decryption] Decrypted 851 chars in 0.23ms
+[2026-07-07 22:02:35] [AUDIT] [Encryption] Encrypted 16 chars (compressed: True) in 26.08ms
+[2026-07-07 22:02:35] [AUDIT] [Block Added] Block 18 saved with record_id telugu.jpg
+[2026-07-07 22:03:22] [AUDIT] [Encryption] Encrypted 16 chars (compressed: True) in 0.29ms
+[2026-07-07 22:04:50] [AUDIT] [Encryption] Encrypted 4 chars (compressed: True) in 10.83ms
+[2026-07-07 22:04:50] [AUDIT] [Block Added] Block 19 saved with record_id WhatsApp Image 2026-07-07 at 3.48.53 PM.jpeg
+[2026-07-07 22:06:49] [AUDIT] [Encryption] Encrypted 4 chars (compressed: True) in 16.61ms
+[2026-07-07 22:06:49] [AUDIT] [Block Added] Block 20 saved with record_id WhatsApp Image 2026-07-07 at 3.48.52 PM.jpeg
+[2026-07-07 22:10:57] [AUDIT] [Encryption] Encrypted 4 chars (compressed: True) in 0.34ms
+[2026-07-07 22:10:57] [AUDIT] [Block Added] Block 21 saved with record_id hindi greeting.jpeg
+[2026-07-07 22:11:26] [AUDIT] [Encryption] Encrypted 4 chars (compressed: True) in 0.27ms
+[2026-07-07 22:11:26] [AUDIT] [Block Added] Block 22 saved with record_id hindi greeting.jpeg
+[2026-07-07 22:11:47] [AUDIT] [Encryption] Encrypted 4 chars (compressed: True) in 0.35ms
+[2026-07-07 22:11:47] [AUDIT] [Block Added] Block 23 saved with record_id hindi greeting.jpeg
+[2026-07-07 22:19:50] [AUDIT] [Login] User joshithagosangari@gmail.com logged in (verified: False)
+[2026-07-07 22:19:52] [AUDIT] [Decryption] Decrypted 851 chars in 1.68ms
+[2026-07-07 22:21:55] [AUDIT] [Encryption] Encrypted 20 chars (compressed: True) in 25.04ms
+[2026-07-07 22:21:55] [AUDIT] [Block Added] Block 24 saved with record_id telugu handwritten demo.jpg
+[2026-07-07 22:30:53] [AUDIT] [Login] User joshithagosangari@gmail.com logged in (verified: False)
+[2026-07-07 22:30:55] [AUDIT] [Decryption] Decrypted 851 chars in 2.61ms
+[2026-07-07 22:33:16] [AUDIT] [Encryption] Encrypted 17 chars (compressed: True) in 11.19ms
+[2026-07-07 22:33:16] [AUDIT] [Block Added] Block 25 saved with record_id WhatsApp Image 2026-07-06 at 1.04.15 PM.jpeg
+[2026-07-07 22:47:20] [AUDIT] [Encryption] Encrypted 11 chars (compressed: True) in 31.11ms
+[2026-07-07 22:47:20] [AUDIT] [Block Added] Block 26 saved with record_id hindi.jpg
+[2026-07-07 22:52:20] [AUDIT] [Encryption] Encrypted 851 chars (compressed: True) in 12.63ms
+[2026-07-07 22:52:20] [AUDIT] [Drive Connected] Saved encrypted Drive credentials for joshithagosangari@gmail.com
+[2026-07-08 08:22:09] [AUDIT] [Login] User joshithagosangari@gmail.com logged in (verified: False)
+[2026-07-08 08:22:11] [AUDIT] [Decryption] Decrypted 851 chars in 26.91ms
+[2026-07-08 08:22:12] [AUDIT] [Encryption] Encrypted 851 chars (compressed: True) in 38.23ms
+[2026-07-08 08:22:12] [AUDIT] [Drive Connected] Saved encrypted Drive credentials for joshithagosangari@gmail.com
+[2026-07-08 08:23:47] [AUDIT] [Decryption] Decrypted 20 chars in 0.35ms
+[2026-07-08 08:23:57] [AUDIT] [Decryption] Decrypted 20 chars in 0.39ms
+[2026-07-08 08:24:08] [AUDIT] [Decryption] Decrypted 20 chars in 0.29ms
+[2026-07-08 08:24:20] [AUDIT] [Decryption] Decrypted 20 chars in 0.39ms
+[2026-07-08 08:24:33] [AUDIT] [Decryption] Decrypted 20 chars in 0.55ms
+[2026-07-08 08:24:44] [AUDIT] [Decryption] Decrypted 20 chars in 0.46ms
+[2026-07-08 08:25:34] [AUDIT] [Decryption] Decrypted 20 chars in 0.59ms
+[2026-07-08 08:25:44] [AUDIT] [Decryption] Decrypted 20 chars in 0.51ms
+[2026-07-08 08:25:54] [AUDIT] [Decryption] Decrypted 20 chars in 0.53ms
+[2026-07-08 08:26:04] [AUDIT] [Decryption] Decrypted 20 chars in 0.57ms
+[2026-07-08 08:26:15] [AUDIT] [Decryption] Decrypted 20 chars in 0.37ms
+[2026-07-08 08:26:24] [AUDIT] [Decryption] Decrypted 20 chars in 0.35ms
+[2026-07-08 08:26:34] [AUDIT] [Decryption] Decrypted 20 chars in 0.51ms
+[2026-07-08 08:26:43] [AUDIT] [Decryption] Decrypted 25 chars in 0.52ms
+[2026-07-08 08:26:54] [AUDIT] [Decryption] Decrypted 25 chars in 0.48ms
+[2026-07-08 08:27:03] [AUDIT] [Decryption] Decrypted 25 chars in 0.41ms
+[2026-07-08 08:27:13] [AUDIT] [Decryption] Decrypted 1852 chars in 2.42ms
+[2026-07-08 08:27:23] [AUDIT] [Decryption] Decrypted 15 chars in 0.47ms
+[2026-07-08 08:27:32] [AUDIT] [Decryption] Decrypted 15 chars in 0.67ms
+[2026-07-08 08:27:46] [AUDIT] [Decryption] Decrypted 15 chars in 0.36ms
+[2026-07-08 08:31:12] [AUDIT] [Login] User joshithagosangari@gmail.com logged in (verified: False)
+[2026-07-08 08:31:15] [AUDIT] [Decryption] Decrypted 851 chars in 25.03ms
+[2026-07-08 08:32:29] [AUDIT] [Encryption] Encrypted 20 chars (compressed: True) in 6.49ms
+[2026-07-08 08:32:29] [AUDIT] [Block Added] Block 27 saved with record_id telugu handwritten demo.jpg
+[2026-07-08 08:33:21] [AUDIT] [Decryption] Decrypted 20 chars in 0.41ms
+[2026-07-08 08:33:31] [AUDIT] [Decryption] Decrypted 20 chars in 0.29ms
+[2026-07-08 08:33:42] [AUDIT] [Decryption] Decrypted 20 chars in 0.49ms
+[2026-07-08 08:33:52] [AUDIT] [Decryption] Decrypted 20 chars in 0.38ms
+[2026-07-08 08:34:02] [AUDIT] [Decryption] Decrypted 20 chars in 0.35ms
+[2026-07-08 08:34:12] [AUDIT] [Decryption] Decrypted 20 chars in 0.42ms
+[2026-07-08 08:34:22] [AUDIT] [Decryption] Decrypted 20 chars in 0.40ms
+[2026-07-08 08:34:31] [AUDIT] [Decryption] Decrypted 20 chars in 0.50ms
+[2026-07-08 08:34:39] [AUDIT] [Decryption] Decrypted 20 chars in 0.42ms
+[2026-07-08 08:34:48] [AUDIT] [Decryption] Decrypted 20 chars in 0.33ms
+[2026-07-08 08:34:57] [AUDIT] [Decryption] Decrypted 20 chars in 0.33ms
+[2026-07-08 08:35:06] [AUDIT] [Decryption] Decrypted 25 chars in 0.33ms
+[2026-07-08 08:35:16] [AUDIT] [Decryption] Decrypted 25 chars in 0.31ms
+[2026-07-08 08:35:24] [AUDIT] [Decryption] Decrypted 25 chars in 0.32ms
+[2026-07-08 08:35:33] [AUDIT] [Decryption] Decrypted 1852 chars in 0.41ms
+[2026-07-08 08:35:42] [AUDIT] [Decryption] Decrypted 15 chars in 0.47ms
+[2026-07-08 08:35:51] [AUDIT] [Decryption] Decrypted 15 chars in 1.25ms
+[2026-07-08 08:36:00] [AUDIT] [Decryption] Decrypted 15 chars in 0.89ms
+[2026-07-08 08:36:10] [AUDIT] [Decryption] Decrypted 15 chars in 1.62ms
+[2026-07-08 08:39:21] [AUDIT] [Login] User joshithagosangari@gmail.com logged in (verified: False)
+[2026-07-08 08:39:23] [AUDIT] [Decryption] Decrypted 851 chars in 22.75ms
+[2026-07-08 08:40:15] [AUDIT] [Encryption] Encrypted 5 chars (compressed: True) in 5.06ms
+[2026-07-08 08:40:15] [AUDIT] [Block Added] Block 28 saved with record_id hindi greeting.jpeg
+[2026-07-08 08:41:36] [AUDIT] [Encryption] Encrypted 18 chars (compressed: True) in 41.26ms
+[2026-07-08 08:41:36] [AUDIT] [Block Added] Block 29 saved with record_id hindi.jpg
+[2026-07-08 08:45:07] [AUDIT] [Encryption] Encrypted 213 chars (compressed: True) in 0.86ms
+[2026-07-08 08:45:07] [AUDIT] [Block Added] Block 30 saved with record_id telugu.jpg
+[2026-07-08 08:58:42] [AUDIT] [Login] User joshithagosangari@gmail.com logged in (verified: False)
+[2026-07-08 08:58:44] [AUDIT] [Decryption] Decrypted 851 chars in 13.96ms
+[2026-07-08 09:07:26] [AUDIT] [Decryption] Decrypted 20 chars in 0.79ms
+[2026-07-08 09:07:45] [AUDIT] [Decryption] Decrypted 20 chars in 0.41ms
+[2026-07-08 09:12:49] [AUDIT] [Encryption] Encrypted 5 chars (compressed: True) in 12.51ms
+[2026-07-08 09:12:49] [AUDIT] [Block Added] Block 31 saved with record_id hindi greeting.jpeg
+[2026-07-08 09:13:36] [AUDIT] [Encryption] Encrypted 5 chars (compressed: True) in 1.44ms
+[2026-07-08 09:16:12] [AUDIT] [Encryption] Encrypted 5 chars (compressed: True) in 0.38ms
+[2026-07-08 09:19:20] [AUDIT] [Encryption] Encrypted 851 chars (compressed: True) in 0.73ms
+[2026-07-08 09:19:20] [AUDIT] [Drive Connected] Saved encrypted Drive credentials for joshithagosangari@gmail.com
+[2026-07-08 09:19:50] [AUDIT] [Encryption] Encrypted 11 chars (compressed: True) in 0.41ms
+[2026-07-08 09:19:50] [AUDIT] [Block Added] Block 32 saved with record_id eng greeting.png
+[2026-07-08 09:21:58] [AUDIT] [Encryption] Encrypted 11 chars (compressed: True) in 0.50ms
+[2026-07-08 09:22:01] [AUDIT] [Encryption] Encrypted 11 chars (compressed: True) in 0.47ms
+[2026-07-08 09:35:15] [AUDIT] [Encryption] Encrypted 12 chars (compressed: True) in 22.19ms
+[2026-07-08 09:35:25] [AUDIT] [Encryption] Encrypted 12 chars (compressed: True) in 0.80ms
+[2026-07-08 09:35:43] [AUDIT] [Encryption] Encrypted 12 chars (compressed: True) in 0.36ms
+[2026-07-08 09:39:42] [AUDIT] [Encryption] Encrypted 12 chars (compressed: True) in 18.56ms
+[2026-07-08 09:48:53] [AUDIT] [Login] User joshithagosangari@gmail.com logged in (verified: False)
+[2026-07-08 09:48:56] [AUDIT] [Decryption] Decrypted 851 chars in 11.21ms
+[2026-07-08 09:49:33] [AUDIT] [Encryption] Encrypted 5 chars (compressed: True) in 2.84ms
+[2026-07-08 09:49:33] [AUDIT] [Block Added] Block 33 saved with record_id hindi greeting.jpeg
+[2026-07-08 10:00:11] [AUDIT] [Encryption] Encrypted 5 chars (compressed: True) in 9.41ms
+[2026-07-08 10:00:13] [AUDIT] [Encryption] Encrypted 5 chars (compressed: True) in 0.33ms
+[2026-07-08 10:00:16] [AUDIT] [Encryption] Encrypted 276 chars (compressed: True) in 0.32ms
+[2026-07-08 10:01:46] [AUDIT] [Encryption] Encrypted 5 chars (compressed: True) in 0.18ms
+[2026-07-08 10:01:48] [AUDIT] [Encryption] Encrypted 5 chars (compressed: True) in 0.80ms
+[2026-07-08 10:01:51] [AUDIT] [Encryption] Encrypted 276 chars (compressed: True) in 0.36ms
+[2026-07-08 10:03:03] [AUDIT] [Encryption] Encrypted 5 chars (compressed: True) in 0.17ms
+[2026-07-08 10:03:06] [AUDIT] [Encryption] Encrypted 5 chars (compressed: True) in 0.25ms
+[2026-07-08 10:03:08] [AUDIT] [Encryption] Encrypted 276 chars (compressed: True) in 0.28ms
+[2026-07-08 10:04:01] [AUDIT] [Encryption] Encrypted 5 chars (compressed: True) in 0.23ms
+[2026-07-08 10:04:03] [AUDIT] [Encryption] Encrypted 5 chars (compressed: True) in 0.38ms
+[2026-07-08 10:04:05] [AUDIT] [Encryption] Encrypted 276 chars (compressed: True) in 0.20ms
+[2026-07-08 10:08:00] [AUDIT] [Login] User joshithagosangari@gmail.com logged in (verified: False)
+[2026-07-08 10:08:03] [AUDIT] [Decryption] Decrypted 851 chars in 1.70ms
+[2026-07-08 10:09:18] [AUDIT] [Decryption] Decrypted 5 chars in 0.37ms
+[2026-07-08 10:09:28] [AUDIT] [Decryption] Decrypted 5 chars in 0.41ms
+[2026-07-08 10:11:26] [AUDIT] [Profile Update] User profile details updated (name: joshitha gosangari, email: joshithagosangari@gmail.com)
+[2026-07-08 10:14:28] [AUDIT] [Decryption] Decrypted 5 chars in 0.21ms
+[2026-07-08 10:14:58] [AUDIT] [Decryption] Decrypted 5 chars in 0.19ms
+[2026-07-08 10:15:34] [AUDIT] [Encryption] Encrypted 851 chars (compressed: True) in 0.83ms
+[2026-07-08 10:15:34] [AUDIT] [Drive Connected] Saved encrypted Drive credentials for joshithagosangari@gmail.com
+[2026-07-08 10:15:46] [AUDIT] [Decryption] Decrypted 5 chars in 0.24ms
+[2026-07-08 10:15:57] [AUDIT] [Decryption] Decrypted 5 chars in 0.38ms
+[2026-07-08 10:16:10] [AUDIT] [Decryption] Decrypted 5 chars in 0.43ms
+[2026-07-08 10:16:21] [AUDIT] [Decryption] Decrypted 11 chars in 0.24ms
+[2026-07-08 10:16:32] [AUDIT] [Decryption] Decrypted 5 chars in 0.35ms
+[2026-07-08 10:17:10] [AUDIT] [Decryption] Decrypted 20 chars in 0.30ms
+[2026-07-08 10:20:13] [AUDIT] [Decryption] Decrypted 20 chars in 0.45ms
+[2026-07-08 10:26:06] [AUDIT] [Login] User joshithagosangari@gmail.com logged in (verified: False)
+[2026-07-08 10:26:08] [AUDIT] [Decryption] Decrypted 851 chars in 0.90ms
+[2026-07-08 10:27:57] [AUDIT] [Decryption] Decrypted 5 chars in 0.22ms
+[2026-07-08 10:28:08] [AUDIT] [Decryption] Decrypted 5 chars in 0.24ms
+[2026-07-08 10:28:20] [AUDIT] [Decryption] Decrypted 5 chars in 0.29ms
+[2026-07-08 10:28:38] [AUDIT] [Decryption] Decrypted 20 chars in 0.28ms
+[2026-07-08 10:30:00] [AUDIT] [Decryption] Decrypted 5 chars in 0.24ms
+[2026-07-08 10:30:11] [AUDIT] [Decryption] Decrypted 5 chars in 0.30ms
+[2026-07-08 10:30:22] [AUDIT] [Decryption] Decrypted 11 chars in 0.20ms
+[2026-07-08 10:30:52] [AUDIT] [Decryption] Decrypted 11 chars in 0.25ms
+[2026-07-08 10:31:03] [AUDIT] [Decryption] Decrypted 5 chars in 0.27ms
+[2026-07-08 10:31:47] [AUDIT] [Decryption] Decrypted 20 chars in 0.17ms
+[2026-07-08 10:31:59] [AUDIT] [Decryption] Decrypted 20 chars in 0.28ms
+[2026-07-08 10:32:13] [AUDIT] [Decryption] Decrypted 20 chars in 0.22ms
+[2026-07-08 10:32:28] [AUDIT] [Decryption] Decrypted 20 chars in 0.19ms
+[2026-07-08 10:32:39] [AUDIT] [Decryption] Decrypted 20 chars in 0.18ms
+[2026-07-08 10:33:08] [AUDIT] [Decryption] Decrypted 20 chars in 0.20ms
+[2026-07-08 10:33:30] [AUDIT] [Decryption] Decrypted 20 chars in 0.31ms
+[2026-07-08 10:33:44] [AUDIT] [Decryption] Decrypted 20 chars in 0.28ms
+[2026-07-08 10:34:12] [AUDIT] [Decryption] Decrypted 20 chars in 0.19ms
+[2026-07-08 10:34:40] [AUDIT] [Decryption] Decrypted 20 chars in 0.19ms
+[2026-07-08 10:34:53] [AUDIT] [Decryption] Decrypted 20 chars in 0.25ms
+[2026-07-08 10:35:05] [AUDIT] [Decryption] Decrypted 20 chars in 0.31ms
+[2026-07-08 10:35:17] [AUDIT] [Decryption] Decrypted 25 chars in 0.26ms
+[2026-07-08 10:43:37] [AUDIT] [Decryption] Decrypted 25 chars in 12.71ms
+[2026-07-08 10:43:49] [AUDIT] [Decryption] Decrypted 25 chars in 0.19ms
+[2026-07-08 10:44:02] [AUDIT] [Decryption] Decrypted 25 chars in 0.27ms
+[2026-07-08 10:44:29] [AUDIT] [Decryption] Decrypted 1852 chars in 0.74ms
+[2026-07-08 10:44:43] [AUDIT] [Decryption] Decrypted 15 chars in 0.14ms
+[2026-07-08 10:44:58] [AUDIT] [Decryption] Decrypted 15 chars in 0.28ms
+[2026-07-08 10:45:12] [AUDIT] [Decryption] Decrypted 15 chars in 0.14ms
+[2026-07-08 10:45:29] [AUDIT] [Decryption] Decrypted 15 chars in 0.23ms
+[2026-07-08 10:48:03] [AUDIT] [Encryption] Encrypted 5 chars (compressed: True) in 3.55ms
+[2026-07-08 10:48:03] [AUDIT] [Version Created] Document 13vDaZEWv4mNvK-xnzcOZkqgbvYXrUe_Y saved version 1
+[2026-07-08 10:48:03] [AUDIT] [Decryption] Decrypted 5 chars in 0.32ms
+[2026-07-08 10:48:16] [AUDIT] [Decryption] Decrypted 5 chars in 0.43ms
+[2026-07-08 10:48:17] [AUDIT] [Decryption] Decrypted 5 chars in 0.23ms
+[2026-07-08 10:48:47] [AUDIT] [Encryption] Encrypted 20 chars (compressed: True) in 2.02ms
+[2026-07-08 10:48:47] [AUDIT] [Version Created] Document test_file_001 saved version 1
+[2026-07-08 10:48:47] [AUDIT] [Encryption] Encrypted 30 chars (compressed: True) in 0.23ms
+[2026-07-08 10:48:47] [AUDIT] [Version Created] Document test_file_001 saved version 2
+[2026-07-08 10:48:47] [AUDIT] [Decryption] Decrypted 20 chars in 0.35ms
+[2026-07-08 10:48:47] [AUDIT] [Decryption] Decrypted 30 chars in 0.21ms
+[2026-07-08 10:48:47] [AUDIT] [Share Link Created] File sensitive_details.png shared with link 5beba920-930
+[2026-07-08 10:52:58] [AUDIT] [Encryption] Encrypted 5 chars (compressed: True) in 3.36ms
+[2026-07-08 10:52:58] [AUDIT] [Block Added] Block 34 saved with record_id hindi greeting.jpeg
+[2026-07-08 10:53:47] [AUDIT] [Encryption] Encrypted 5 chars (compressed: True) in 0.45ms
+[2026-07-08 10:53:49] [AUDIT] [Encryption] Encrypted 5 chars (compressed: True) in 0.67ms
+[2026-07-08 10:53:52] [AUDIT] [Encryption] Encrypted 276 chars (compressed: True) in 0.80ms
+[2026-07-08 10:54:43] [AUDIT] [Decryption] Decrypted 5 chars in 0.49ms
+[2026-07-08 10:55:08] [AUDIT] [Decryption] Decrypted 5 chars in 0.30ms
+[2026-07-08 10:57:16] [AUDIT] [Encryption] Encrypted 20 chars (compressed: True) in 2.80ms
+[2026-07-08 10:57:16] [AUDIT] [Version Created] Document test_file_001 saved version 3
+[2026-07-08 10:57:16] [AUDIT] [Encryption] Encrypted 30 chars (compressed: True) in 0.16ms
+[2026-07-08 10:57:16] [AUDIT] [Version Created] Document test_file_001 saved version 4
+[2026-07-08 10:57:16] [AUDIT] [Decryption] Decrypted 20 chars in 0.35ms
+[2026-07-08 10:57:16] [AUDIT] [Decryption] Decrypted 30 chars in 0.28ms
+[2026-07-08 10:57:16] [AUDIT] [Decryption] Decrypted 20 chars in 0.18ms
+[2026-07-08 10:57:16] [AUDIT] [Decryption] Decrypted 30 chars in 0.19ms
+[2026-07-08 10:57:16] [AUDIT] [Share Link Created] File sensitive_details.png shared with link 496b85e3-29e
+[2026-07-08 11:00:47] [AUDIT] [Login] User joshithagosangari@gmail.com logged in (verified: False)
+[2026-07-08 11:00:51] [AUDIT] [Decryption] Decrypted 851 chars in 3.96ms
+[2026-07-08 11:01:22] [AUDIT] [Encryption] Encrypted 20 chars (compressed: True) in 13.21ms
+[2026-07-08 11:01:22] [AUDIT] [Version Created] Document test_file_001 saved version 5
+[2026-07-08 11:01:22] [AUDIT] [Encryption] Encrypted 30 chars (compressed: True) in 0.34ms
+[2026-07-08 11:01:22] [AUDIT] [Version Created] Document test_file_001 saved version 6
+[2026-07-08 11:01:22] [AUDIT] [Decryption] Decrypted 20 chars in 0.49ms
+[2026-07-08 11:01:22] [AUDIT] [Decryption] Decrypted 30 chars in 0.37ms
+[2026-07-08 11:01:22] [AUDIT] [Decryption] Decrypted 20 chars in 0.39ms
+[2026-07-08 11:01:22] [AUDIT] [Decryption] Decrypted 30 chars in 0.45ms
+[2026-07-08 11:01:22] [AUDIT] [Decryption] Decrypted 20 chars in 0.36ms
+[2026-07-08 11:01:22] [AUDIT] [Decryption] Decrypted 30 chars in 0.42ms
+[2026-07-08 11:01:22] [AUDIT] [Share Link Created] File sensitive_details.png shared with link fa30d3fb-a8b
+[2026-07-08 11:01:34] [AUDIT] [Decryption] Decrypted 5 chars in 0.51ms
+[2026-07-08 11:01:46] [AUDIT] [Decryption] Decrypted 5 chars in 0.49ms
+[2026-07-08 11:01:57] [AUDIT] [Decryption] Decrypted 5 chars in 0.22ms
+[2026-07-08 11:02:08] [AUDIT] [Decryption] Decrypted 11 chars in 0.28ms
+[2026-07-08 11:02:20] [AUDIT] [Decryption] Decrypted 5 chars in 0.20ms
+[2026-07-08 11:04:33] [AUDIT] [Encryption] Encrypted 20 chars (compressed: True) in 4.05ms
+[2026-07-08 11:04:33] [AUDIT] [Version Created] Document test_file_001 saved version 7
+[2026-07-08 11:04:33] [AUDIT] [Encryption] Encrypted 30 chars (compressed: True) in 0.31ms
+[2026-07-08 11:04:33] [AUDIT] [Version Created] Document test_file_001 saved version 8
+[2026-07-08 11:04:33] [AUDIT] [Decryption] Decrypted 20 chars in 2.62ms
+[2026-07-08 11:04:33] [AUDIT] [Decryption] Decrypted 30 chars in 0.35ms
+[2026-07-08 11:04:33] [AUDIT] [Decryption] Decrypted 20 chars in 0.29ms
+[2026-07-08 11:04:33] [AUDIT] [Decryption] Decrypted 30 chars in 0.37ms
+[2026-07-08 11:04:33] [AUDIT] [Decryption] Decrypted 20 chars in 1.17ms
+[2026-07-08 11:04:33] [AUDIT] [Decryption] Decrypted 30 chars in 0.37ms
+[2026-07-08 11:04:33] [AUDIT] [Decryption] Decrypted 20 chars in 0.35ms
+[2026-07-08 11:04:33] [AUDIT] [Decryption] Decrypted 30 chars in 0.39ms
+[2026-07-08 11:04:33] [AUDIT] [Share Link Created] File sensitive_details.png shared with link 2bcdbeca-dfb
+[2026-07-08 11:05:19] [AUDIT] [Login] User joshithagosangari@gmail.com logged in (verified: False)
+[2026-07-08 11:05:21] [AUDIT] [Decryption] Decrypted 851 chars in 2.29ms
+[2026-07-08 11:07:10] [AUDIT] [Decryption] Decrypted 5 chars in 0.25ms
+[2026-07-08 11:07:23] [AUDIT] [Decryption] Decrypted 5 chars in 0.31ms
+[2026-07-08 11:07:39] [AUDIT] [Decryption] Decrypted 5 chars in 0.24ms
+[2026-07-08 11:07:53] [AUDIT] [Decryption] Decrypted 11 chars in 0.30ms
+[2026-07-08 11:08:08] [AUDIT] [Decryption] Decrypted 5 chars in 0.32ms
+[2026-07-08 11:09:39] [AUDIT] [Decryption] Decrypted 20 chars in 2.94ms
+[2026-07-08 11:10:26] [AUDIT] [Decryption] Decrypted 20 chars in 0.27ms
+[2026-07-08 11:10:42] [AUDIT] [Decryption] Decrypted 20 chars in 0.27ms
+[2026-07-08 11:11:04] [AUDIT] [Decryption] Decrypted 20 chars in 0.22ms
+[2026-07-08 11:11:17] [AUDIT] [Decryption] Decrypted 20 chars in 0.20ms
+[2026-07-08 11:11:30] [AUDIT] [Decryption] Decrypted 20 chars in 0.23ms
+[2026-07-08 11:11:43] [AUDIT] [Decryption] Decrypted 20 chars in 0.48ms
+[2026-07-08 11:11:57] [AUDIT] [Decryption] Decrypted 20 chars in 0.21ms
+[2026-07-08 11:12:14] [AUDIT] [Decryption] Decrypted 20 chars in 0.30ms
+[2026-07-08 11:12:17] [AUDIT] [OCR Learned] Learned 2 word correction mappings
+[2026-07-08 11:12:35] [AUDIT] [Decryption] Decrypted 20 chars in 0.28ms
+[2026-07-08 11:12:47] [AUDIT] [Decryption] Decrypted 20 chars in 0.27ms
+[2026-07-08 11:13:02] [AUDIT] [Decryption] Decrypted 25 chars in 0.28ms
+[2026-07-08 11:13:14] [AUDIT] [Decryption] Decrypted 25 chars in 0.21ms
+[2026-07-08 11:13:25] [AUDIT] [Decryption] Decrypted 25 chars in 0.19ms
+[2026-07-08 11:13:35] [AUDIT] [Decryption] Decrypted 1852 chars in 0.72ms
+[2026-07-08 11:13:47] [AUDIT] [Decryption] Decrypted 15 chars in 0.17ms
+[2026-07-08 11:13:59] [AUDIT] [Decryption] Decrypted 15 chars in 1.01ms
+[2026-07-08 11:14:13] [AUDIT] [Decryption] Decrypted 15 chars in 0.30ms
+[2026-07-08 11:14:24] [AUDIT] [Decryption] Decrypted 15 chars in 0.31ms
+[2026-07-08 11:55:17] [AUDIT] [Encryption] Encrypted 20 chars (compressed: True) in 21.14ms
+[2026-07-08 11:55:17] [AUDIT] [Block Added] Block 35 saved with record_id telugu handwritten demo.jpg
+[2026-07-08 12:01:02] [AUDIT] [Encryption] Encrypted 175 chars (compressed: True) in 25.79ms
+[2026-07-08 12:01:02] [AUDIT] [Block Added] Block 36 saved with record_id hindi demo.jpg
+[2026-07-08 12:10:02] [AUDIT] [Encryption] Encrypted 851 chars (compressed: True) in 9.17ms
+[2026-07-08 12:10:02] [AUDIT] [Drive Connected] Saved encrypted Drive credentials for joshithagosangari@gmail.com
+[2026-07-08 12:12:53] [AUDIT] [Encryption] Encrypted 18 chars (compressed: True) in 42.46ms
+[2026-07-08 12:12:54] [AUDIT] [Block Added] Block 37 saved with record_id WhatsApp Image 2026-07-06 at 1.04.15 PM.jpeg
+[2026-07-08 12:14:19] [AUDIT] [Encryption] Encrypted 18 chars (compressed: True) in 2.74ms
+[2026-07-08 12:14:22] [AUDIT] [Encryption] Encrypted 18 chars (compressed: True) in 11.60ms
+[2026-07-08 12:14:24] [AUDIT] [Encryption] Encrypted 289 chars (compressed: True) in 1.35ms
+[2026-07-08 12:15:28] [AUDIT] [Decryption] Decrypted 18 chars in 3.64ms
+[2026-07-08 12:36:00] [AUDIT] [Encryption] Encrypted 2 chars (compressed: True) in 2.76ms
+[2026-07-08 12:36:00] [AUDIT] [Block Added] Block 38 saved with record_id hindi greeting.jpeg
+[2026-07-08 12:38:52] [AUDIT] [Encryption] Encrypted 8 chars (compressed: True) in 28.24ms
+[2026-07-08 12:38:52] [AUDIT] [Block Added] Block 39 saved with record_id hindi.jpg
+[2026-07-08 13:07:48] [AUDIT] [Encryption] Encrypted 851 chars (compressed: True) in 32.68ms
+[2026-07-08 13:07:48] [AUDIT] [Drive Connected] Saved encrypted Drive credentials for joshithagosangari@gmail.com
+[2026-07-08 13:43:52] [AUDIT] [Login] User joshithagosangari@gmail.com logged in (verified: False)
+[2026-07-08 13:43:54] [AUDIT] [Decryption] Decrypted 851 chars in 16.75ms
+[2026-07-08 13:48:34] [AUDIT] [Encryption] Encrypted 15 chars (compressed: True) in 12.69ms
+[2026-07-08 13:48:34] [AUDIT] [Block Added] Block 40 saved with record_id telugu.jpg
+[2026-07-08 13:51:32] [AUDIT] [Encryption] Encrypted 130 chars (compressed: True) in 0.32ms
+[2026-07-08 13:51:34] [AUDIT] [Encryption] Encrypted 130 chars (compressed: True) in 0.26ms
+[2026-07-08 13:51:39] [AUDIT] [Encryption] Encrypted 278 chars (compressed: True) in 0.38ms
+[2026-07-08 13:53:11] [AUDIT] [Decryption] Decrypted 130 chars in 1.47ms
+[2026-07-08 13:53:21] [AUDIT] [Decryption] Decrypted 18 chars in 0.40ms
+[2026-07-08 13:53:33] [AUDIT] [Decryption] Decrypted 5 chars in 0.42ms
+[2026-07-08 13:53:43] [AUDIT] [Decryption] Decrypted 5 chars in 0.18ms
+[2026-07-08 13:53:55] [AUDIT] [Decryption] Decrypted 5 chars in 0.32ms
+[2026-07-08 13:53:58] [AUDIT] [Encryption] Encrypted 130 chars (compressed: True) in 0.44ms
+[2026-07-08 13:53:58] [AUDIT] [Version Created] Document 1WRmh0MOyuiq4VZEfaHtujYw11XWgs09h saved version 1
+[2026-07-08 13:53:58] [AUDIT] [Decryption] Decrypted 130 chars in 0.36ms
+[2026-07-08 13:54:06] [AUDIT] [Decryption] Decrypted 5 chars in 0.21ms
+[2026-07-08 13:54:39] [AUDIT] [Decryption] Decrypted 130 chars in 0.37ms
+[2026-07-08 13:54:40] [AUDIT] [Share Link Created] File telugu.jpg shared with link bac62175-d1b
+[2026-07-08 13:54:41] [AUDIT] [Decryption] Decrypted 130 chars in 0.50ms
+[2026-07-08 13:54:58] [AUDIT] [Decryption] Decrypted 130 chars in 0.22ms
+[2026-07-08 13:54:58] [AUDIT] [Share Link Consumed] Link bac62175-d1b was claimed
+[2026-07-08 13:58:08] [AUDIT] [Decryption] Decrypted 5 chars in 0.28ms
+[2026-07-08 13:58:36] [AUDIT] [Encryption] Encrypted 6 chars (compressed: True) in 0.27ms
+[2026-07-08 13:58:36] [AUDIT] [Block Added] Block 41 saved with record_id telugu-370x370.png
+[2026-07-08 14:00:08] [AUDIT] [Encryption] Encrypted 2 chars (compressed: True) in 1.10ms
+[2026-07-08 14:00:08] [AUDIT] [Block Added] Block 42 saved with record_id motivational-hindi-quote-poster.jpg
+[2026-07-08 14:00:47] [AUDIT] [Decryption] Decrypted 2 chars in 0.29ms
+[2026-07-08 14:00:49] [AUDIT] [Encryption] Encrypted 2 chars (compressed: True) in 0.20ms
+[2026-07-08 14:00:49] [AUDIT] [Block Added] Block 43 saved with record_id motivational-hindi-quote-poster.jpg
+[2026-07-08 14:02:27] [AUDIT] [Encryption] Encrypted 6 chars (compressed: True) in 0.21ms
+[2026-07-08 14:02:27] [AUDIT] [Block Added] Block 44 saved with record_id Hindi-1.jpg
+[2026-07-08 14:03:29] [AUDIT] [Encryption] Encrypted 10 chars (compressed: True) in 0.18ms
+[2026-07-08 14:03:29] [AUDIT] [Block Added] Block 45 saved with record_id eng greeting.png
+[2026-07-08 14:07:02] [AUDIT] [Encryption] Encrypted 851 chars (compressed: True) in 4.56ms
+[2026-07-08 14:07:02] [AUDIT] [Drive Connected] Saved encrypted Drive credentials for joshithagosangari@gmail.com
+[2026-07-08 14:07:25] [AUDIT] [Encryption] Encrypted 21 chars (compressed: True) in 0.29ms
+[2026-07-08 14:07:25] [AUDIT] [Block Added] Block 46 saved with record_id Screenshot (702).png
+[2026-07-08 14:14:38] [AUDIT] [Encryption] Encrypted 13 chars (compressed: True) in 19.81ms
+[2026-07-08 14:14:38] [AUDIT] [Block Added] Block 47 saved with record_id Screenshot (703).png
+[2026-07-08 14:15:15] [AUDIT] [Encryption] Encrypted 13 chars (compressed: True) in 0.17ms
+[2026-07-08 14:15:17] [AUDIT] [Encryption] Encrypted 13 chars (compressed: True) in 0.16ms
+[2026-07-08 14:15:20] [AUDIT] [Encryption] Encrypted 265 chars (compressed: True) in 0.22ms
+[2026-07-08 14:15:31] [AUDIT] [Encryption] Encrypted 13 chars (compressed: True) in 0.17ms
+[2026-07-08 14:15:33] [AUDIT] [Encryption] Encrypted 13 chars (compressed: True) in 0.18ms
+[2026-07-08 14:15:36] [AUDIT] [Encryption] Encrypted 270 chars (compressed: True) in 0.20ms
+[2026-07-08 14:16:10] [AUDIT] [Encryption] Encrypted 12 chars (compressed: True) in 0.26ms
+[2026-07-08 14:16:10] [AUDIT] [Block Added] Block 48 saved with record_id Screenshot (704).png
+[2026-07-08 19:24:56] [AUDIT] [Login] User joshithagosangari@gmail.com logged in (verified: False)
+[2026-07-08 19:24:58] [AUDIT] [Decryption] Decrypted 851 chars in 3.68ms
+[2026-07-08 19:24:59] [AUDIT] [Encryption] Encrypted 851 chars (compressed: True) in 1.28ms
+[2026-07-08 19:24:59] [AUDIT] [Drive Connected] Saved encrypted Drive credentials for joshithagosangari@gmail.com
+[2026-07-08 19:26:01] [AUDIT] [Decryption] Decrypted 13 chars in 0.54ms
+[2026-07-08 19:26:15] [AUDIT] [Decryption] Decrypted 13 chars in 0.55ms
+[2026-07-08 19:26:27] [AUDIT] [Decryption] Decrypted 130 chars in 0.39ms
+[2026-07-08 19:26:38] [AUDIT] [Decryption] Decrypted 18 chars in 0.46ms
+[2026-07-08 19:26:49] [AUDIT] [Decryption] Decrypted 5 chars in 0.69ms
+[2026-07-08 19:27:01] [AUDIT] [Decryption] Decrypted 5 chars in 0.33ms
+[2026-07-08 19:47:59] [AUDIT] [Decryption] Decrypted 6 chars in 0.51ms
+[2026-07-08 19:48:00] [AUDIT] [Encryption] Encrypted 6 chars (compressed: True) in 0.36ms
+[2026-07-08 19:48:00] [AUDIT] [Block Added] Block 49 saved with record_id Hindi-1.jpg
+[2026-07-08 19:49:05] [AUDIT] [Decryption] Decrypted 6 chars in 0.39ms
+[2026-07-08 19:49:07] [AUDIT] [Encryption] Encrypted 6 chars (compressed: True) in 0.34ms
+[2026-07-08 19:49:07] [AUDIT] [Block Added] Block 50 saved with record_id telugu-370x370.png
+[2026-07-08 19:49:07] [AUDIT] [Blockchain Backup] Saved backup to blockchain_backup_20260708_194907.json
+[2026-07-08 20:00:45] [AUDIT] [Encryption] Encrypted 8 chars (compressed: True) in 1.25ms
+[2026-07-08 20:00:45] [AUDIT] [Block Added] Block 51 saved with record_id camera_capture.png
+[2026-07-08 20:03:03] [AUDIT] [Decryption] Decrypted 5 chars in 32.40ms
+[2026-07-08 20:03:14] [AUDIT] [Decryption] Decrypted 5 chars in 0.41ms
+[2026-07-08 20:03:26] [AUDIT] [Decryption] Decrypted 11 chars in 0.72ms
+[2026-07-08 20:03:37] [AUDIT] [Decryption] Decrypted 5 chars in 0.46ms
+[2026-07-08 20:04:21] [AUDIT] [Decryption] Decrypted 20 chars in 0.37ms
+[2026-07-08 20:04:31] [AUDIT] [Decryption] Decrypted 20 chars in 0.34ms
+[2026-07-08 20:04:42] [AUDIT] [Decryption] Decrypted 20 chars in 0.39ms
+[2026-07-08 20:04:53] [AUDIT] [Decryption] Decrypted 20 chars in 0.39ms
+[2026-07-08 20:05:04] [AUDIT] [Decryption] Decrypted 20 chars in 0.36ms
+[2026-07-08 20:05:17] [AUDIT] [Decryption] Decrypted 20 chars in 0.52ms
+[2026-07-08 20:05:29] [AUDIT] [Decryption] Decrypted 20 chars in 0.49ms
+[2026-07-08 20:05:40] [AUDIT] [Decryption] Decrypted 20 chars in 0.38ms
+[2026-07-08 20:05:51] [AUDIT] [Decryption] Decrypted 20 chars in 0.34ms
+[2026-07-08 20:06:03] [AUDIT] [Decryption] Decrypted 20 chars in 0.30ms
+[2026-07-08 20:06:15] [AUDIT] [Decryption] Decrypted 20 chars in 0.37ms
+[2026-07-08 20:06:26] [AUDIT] [Decryption] Decrypted 25 chars in 0.37ms
+[2026-07-08 20:06:38] [AUDIT] [Decryption] Decrypted 25 chars in 0.48ms
+[2026-07-08 20:27:23] [AUDIT] [Login] User joshithagosangari@gmail.com logged in (verified: False)
+[2026-07-08 20:27:25] [AUDIT] [Decryption] Decrypted 851 chars in 3.04ms
+[2026-07-08 20:27:25] [AUDIT] [Encryption] Encrypted 851 chars (compressed: True) in 9.61ms
+[2026-07-08 20:27:25] [AUDIT] [Drive Connected] Saved encrypted Drive credentials for joshithagosangari@gmail.com
+[2026-07-08 20:45:04] [AUDIT] [Login] User joshithagosangari@gmail.com logged in (verified: False)
+[2026-07-08 20:45:06] [AUDIT] [Decryption] Decrypted 851 chars in 18.64ms
+[2026-07-08 20:58:24] [AUDIT] [Encryption] Encrypted 1914 chars (compressed: True) in 17.65ms
+[2026-07-08 20:58:24] [AUDIT] [Block Added] Block 52 saved with record_id transcript......pdf
+[2026-07-08 21:02:01] [AUDIT] [Encryption] Encrypted 1914 chars (compressed: True) in 1.79ms
+[2026-07-08 21:02:03] [AUDIT] [Encryption] Encrypted 1914 chars (compressed: True) in 0.97ms
+[2026-07-08 21:02:08] [AUDIT] [Encryption] Encrypted 318 chars (compressed: True) in 3.42ms

@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+.streamlit/secrets.toml
+firebase-admin-key.json
+*.pem
+data/security/*.pem
+*.pth
+*.mp4
+google_client_secret.json
