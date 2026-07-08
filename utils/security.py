@@ -371,8 +371,21 @@ def build_google_auth_flow() -> InstalledAppFlow:
 def get_google_auth_url(page: str = "Home", prompt: str = "consent") -> tuple[str, str]:
     """Generates the Google OAuth authorization URL for Web / Streamlit redirection."""
     import uuid
+    import streamlit as st
+    import os
     flow = build_google_auth_flow()
-    flow.redirect_uri = "http://localhost:8501/"
+    
+    # Try to get APP_URL from secrets for production, fallback to localhost for dev
+    try:
+        app_url = st.secrets.get("APP_URL", os.environ.get("APP_URL", "http://localhost:8501/"))
+    except Exception:
+        app_url = os.environ.get("APP_URL", "http://localhost:8501/")
+        
+    # Ensure it ends with a slash if it's just the base URL without path
+    if not app_url.endswith("/") and app_url.count("/") == 2:
+        app_url += "/"
+        
+    flow.redirect_uri = app_url
     
     # Store page navigation target inside state param
     csrf_token = uuid.uuid4().hex[:8]
@@ -390,7 +403,17 @@ def get_google_auth_url(page: str = "Home", prompt: str = "consent") -> tuple[st
 def exchange_google_code(code: str) -> tuple[dict, Credentials]:
     """Exchanges the authorization code for credentials and fetches user profile."""
     flow = build_google_auth_flow()
-    flow.redirect_uri = "http://localhost:8501/"
+    import streamlit as st
+    import os
+    try:
+        app_url = st.secrets.get("APP_URL", os.environ.get("APP_URL", "http://localhost:8501/"))
+    except Exception:
+        app_url = os.environ.get("APP_URL", "http://localhost:8501/")
+        
+    if not app_url.endswith("/") and app_url.count("/") == 2:
+        app_url += "/"
+        
+    flow.redirect_uri = app_url
     flow.fetch_token(code=code)
     creds = flow.credentials
 

@@ -363,7 +363,17 @@ def export_pdf(doc: LayoutDocument, title: str = "Digitized Document",
             import qrcode
             from reportlab.platypus import Image as RLImage
             qr = qrcode.QRCode(version=1, box_size=3, border=1)
-            verify_url = f"http://localhost:8501/?verify={h}"
+            import os
+            try:
+                import streamlit as st
+                app_url = st.secrets.get("APP_URL", os.environ.get("APP_URL", "http://localhost:8501"))
+            except Exception:
+                app_url = os.environ.get("APP_URL", "http://localhost:8501")
+            
+            if app_url.endswith("/"):
+                app_url = app_url[:-1]
+                
+            verify_url = f"{app_url}/?verify={h}"
             qr.add_data(verify_url)
             qr.make(fit=True)
             img_qr = qr.make_image(fill_color="black", back_color="white")
