@@ -211,7 +211,7 @@ def render():
             doc_count = len(docs)
             if docs:
                 recent_docs = docs[:2]
-                if latest is None:
+                if last_scan_date == "—":
                     created = docs[0].get("createdTime", "")[:10]
                     parts = created.split("-")
                     if len(parts) == 3:
@@ -351,27 +351,6 @@ def render():
                     </div>
                 </div>
             """)
-
-            # Latest OCR Summary Details Card (Inside Main White Container)
-            if latest:
-                st.markdown("<hr style='border:0; height:1px; background:#F1F5F9; margin: 24px 0;' />", unsafe_allow_html=True)
-                html_block(f"""
-                    <div style="max-width: 420px; width: 100%;">
-                        <h4 style="margin-top:0; color:#0F172A; font-size:1.15rem; font-weight:800; margin-bottom:12px;">Latest OCR Metrics</h4>
-                        <div style="display:flex; justify-content:space-between; padding:8px 0; border-bottom:1px solid #F1F5F9; font-size:0.9rem;">
-                            <span style="color:#64748B;">Total Characters</span>
-                            <span style="font-weight:700; color:#0F172A;">{char_count}</span>
-                        </div>
-                        <div style="display:flex; justify-content:space-between; padding:8px 0; border-bottom:1px solid #F1F5F9; font-size:0.9rem;">
-                            <span style="color:#64748B;">Mean Accuracy</span>
-                            <span style="font-weight:700; color:#10B981;">{avg_confidence}</span>
-                        </div>
-                        <div style="display:flex; justify-content:space-between; padding:8px 0; font-size:0.9rem;">
-                            <span style="color:#64748B;">Processing Latency</span>
-                            <span style="font-weight:700; color:#3b82f6;">{proc_time}</span>
-                        </div>
-                    </div>
-                """)
 
     # Dashboard Footer
     html_block(f"""
