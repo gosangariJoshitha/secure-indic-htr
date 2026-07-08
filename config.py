@@ -50,10 +50,10 @@ for _d in (UPLOADS_DIR, OUTPUTS_DIR, DATA_DIR, MODELS_DIR):
     _d.mkdir(parents=True, exist_ok=True)
 
 # Path to your trained PyTorch model (CRNN: CNN + BiLSTM + CTC)
-MODEL_PATH = Path(os.environ.get("MODEL_PATH", MODELS_DIR / "model_best.pth"))
-LABEL_MAP_PATH = Path(os.environ.get("LABEL_MAP_PATH", MODELS_DIR / "label_map.json"))
-FL_MODEL_PATH = Path(os.environ.get("FL_MODEL_PATH", MODELS_DIR / "fl_global_model_final.pth"))
-FORCE_CPU = os.environ.get("FORCE_CPU", "0") == "1"
+MODEL_PATH = Path(get_env_or_secret("MODEL_PATH", str(MODELS_DIR / "model_best.pth")).strip('"\''))
+LABEL_MAP_PATH = Path(get_env_or_secret("LABEL_MAP_PATH", str(MODELS_DIR / "label_map.json")).strip('"\''))
+FL_MODEL_PATH = Path(get_env_or_secret("FL_MODEL_PATH", str(MODELS_DIR / "fl_global_model_final.pth")).strip('"\''))
+FORCE_CPU = get_env_or_secret("FORCE_CPU", "0") == "1"
 
 # ------------------------------------------------------------------
 # Firebase (Auth) — values come from environment or st.secrets
