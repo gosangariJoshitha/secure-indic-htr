@@ -55,14 +55,7 @@ def render():
             "time": 1.5, # Historical documents don't store processing time, use placeholder
         })
         
-    # 2. Local Recent Runs (Session)
-    # Deduplicate by name and createdTime approx (to avoid showing duplicates if saved)
-    local_runs = st.session_state.get("recent_ocr_runs", [])
-    hist_names = {r["name"] for r in runs_data}
-    
-    for r in local_runs:
-        if r["name"] not in hist_names:
-            runs_data.append(r)
+    # Removed local unsaved runs injection to keep metrics perfectly synced with Drive Storage
 
     if not runs_data:
         st.info("No OCR runs recorded yet. Process some documents or connect Drive to sync history.")
@@ -74,7 +67,7 @@ def render():
 
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.metric("Total Scans", len(df))
+        st.metric("Documents Stored", len(df))
     with col2:
         st.metric("Avg Confidence", f"{df['confidence_pct'].mean():.1f}%")
     with col3:
