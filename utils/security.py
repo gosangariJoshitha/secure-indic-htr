@@ -344,6 +344,21 @@ def build_google_auth_flow() -> InstalledAppFlow:
     except ImportError:
         raise AuthError("google-auth-oauthlib isn't installed.")
 
+    import json
+    import streamlit as st
+    
+    # Check if we have the raw JSON in secrets
+    try:
+        if "GOOGLE_OAUTH_CLIENT_SECRETS_JSON" in st.secrets:
+            client_config = json.loads(st.secrets["GOOGLE_OAUTH_CLIENT_SECRETS_JSON"])
+            return InstalledAppFlow.from_client_config(
+                client_config,
+                scopes=_GOOGLE_SCOPES,
+            )
+    except Exception:
+        pass
+
+    # Fallback to file path
     if not os.path.exists(GOOGLE_OAUTH_CLIENT_SECRETS):
         raise AuthError(f"OAuth client secret not found at '{GOOGLE_OAUTH_CLIENT_SECRETS}'.")
 
