@@ -22,6 +22,8 @@ def run(image: Image.Image, language: str | None = None) -> OCRResult:
         raise ImportError("PaddleOCR package is not installed. Please install 'paddleocr'.")
         
     if _PADDLE_READER is None:
+        import gc
+        gc.collect()
         lang_code = 'en'
         if language:
             l = language.lower()
@@ -29,8 +31,8 @@ def run(image: Image.Image, language: str | None = None) -> OCRResult:
                 lang_code = 'hi'
             elif l.startswith('t'):
                 lang_code = 'te'
-        # Lazy initialization
-        _PADDLE_READER = PaddleOCR(use_angle_cls=True, lang=lang_code, show_log=False, enable_mkldnn=False)
+        # Lazy initialization without angle classifier to stay under 1GB RAM on Streamlit Cloud
+        _PADDLE_READER = PaddleOCR(use_angle_cls=False, lang=lang_code, show_log=False, enable_mkldnn=False)
         
     img_arr = np.array(image.convert("RGB"))
     img_cv = img_arr[:, :, ::-1] # RGB to BGR

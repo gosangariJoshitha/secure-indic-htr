@@ -652,6 +652,15 @@ def calculate_sharpness(image_bytes: bytes) -> float:
     try:
         from PIL import Image, ImageOps
         import numpy as np
+        if isinstance(image_bytes, bytes) and image_bytes.startswith(b"%PDF"):
+            try:
+                import fitz
+                doc_pdf = fitz.open(stream=image_bytes, filetype="pdf")
+                if len(doc_pdf) > 0:
+                    page = doc_pdf.load_page(0)
+                    image_bytes = page.get_pixmap().tobytes("png")
+            except Exception:
+                pass
         img = Image.open(io.BytesIO(image_bytes))
         gray = ImageOps.grayscale(img)
         arr = np.array(gray, dtype=np.int32)
@@ -668,6 +677,15 @@ def detect_fake_scan(image_bytes: bytes) -> dict:
     try:
         from PIL import Image, ImageOps
         import numpy as np
+        if isinstance(image_bytes, bytes) and image_bytes.startswith(b"%PDF"):
+            try:
+                import fitz
+                doc_pdf = fitz.open(stream=image_bytes, filetype="pdf")
+                if len(doc_pdf) > 0:
+                    page = doc_pdf.load_page(0)
+                    image_bytes = page.get_pixmap().tobytes("png")
+            except Exception:
+                pass
         img = Image.open(io.BytesIO(image_bytes))
         
         is_screenshot = False
