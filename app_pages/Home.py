@@ -321,14 +321,14 @@ def render():
                     proc_val = 1.25
 
                     html_block(f"""
-                    <div style="display:flex; align-items:center; justify-content:space-between; padding:18px 0; border-bottom:1px solid #F1F5F9; width:100%;">
-                        <div>
-                            <div style="font-weight:700; font-size:0.95rem; color:#0F172A; margin-bottom:2px;">{doc_display_name}</div>
-                            <div style="font-size:0.8rem; color:#94A3B8;">
+                    <div style="display:flex; align-items:center; justify-content:space-between; gap:16px; padding:18px 0; border-bottom:1px solid #F1F5F9; width:100%;">
+                        <div style="flex:1; min-width:0;">
+                            <div style="font-weight:700; font-size:0.95rem; color:#0F172A; margin-bottom:2px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">{doc_display_name}</div>
+                            <div style="font-size:0.8rem; color:#94A3B8; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">
                                 {formatted_date} • {proc_val:.2f}s • {conf_val*100.0:.1f}% conf
                             </div>
                         </div>
-                        <div>
+                        <div style="flex-shrink:0;">
                             <span style="background-color:#E8FDF5; color:#10B981; font-size:0.68rem; font-weight:800; letter-spacing:0.05em; padding:4px 10px; border-radius:6px; text-transform:uppercase;">{lang_label}</span>
                         </div>
                     </div>
